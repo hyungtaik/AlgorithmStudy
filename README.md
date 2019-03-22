@@ -1,2 +1,2 @@
 # AlgorithmStudy
-For Algorithm!!
+For Algorithm study!!
