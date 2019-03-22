@@ -1,0 +1,15 @@
+git remote -v url.git => 저장소 추가 (shift + insert시 붙여넣기)
+git 사용법
+git ignore
+
+git branch - 모든 브랜치 확인
+git branch branch명 -  branch명 생성
+git checkout branch명 -  branch명으로 이동
+
+git add
+git commit -m ""
+git pull origin develope
+로컬에서 코드를 돌려볼것
+git push origin hyungtaik
+
+깃허브에서 멀지
