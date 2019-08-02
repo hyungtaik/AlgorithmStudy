@@ -2,11 +2,12 @@ package baekjoonA;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class b13458 {
 
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 	
@@ -23,14 +24,18 @@ public class b13458 {
 		int c = Integer.parseInt(st.nextToken());
 		
 		//ºÎ°ü ¼ö
-		int result=i;
+		long result=i;
 		
 		for(int j=0;j<i;j++) {
 			arr[j]-=b;
-			result += Math.ceil((1.0*arr[j])/c);
+			if(arr[i]>0) {
+				result +=arr[j]/c;
+				
+				if(arr[j]%c != 0)
+					result++;
+			}
 		}
 		System.out.println(result);
-		
 		
 	}
 
