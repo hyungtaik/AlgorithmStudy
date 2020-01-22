@@ -45,6 +45,7 @@ public class boj14501 {
 		solve(num+1,temp);	
 	
 		return;
+		
 	}
 	
 	static class Pair{
