@@ -4,9 +4,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 동적계획법 (Dynamic Programming)
+// (Dynamic Programming)
 
-public class jol_IM_3522_정답없음 {
+public class jol_IM_3522_정답없음{
 	static int N;
 
 	public static void main(String[] args) throws Exception {
