@@ -1,5 +1,13 @@
 # Algorithm Study
 
+## [2020-01-30] 
+----------------------------------------------
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.14889): https://www.acmicpc.net/problem/14889**
+* boj_14889_스타트와링크.java - solve (1H)
+
+**[SWEA] S/W 문제해결 기본 3일차 - 회문1 (No.1215): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14QpAaAAwCFAYi&categoryId=AV14QpAaAAwCFAYi&categoryType=CODE**
+* swea_1215.java - solve (20M)
+
 ## [2020-01-29] 
 ----------------------------------------------
 **[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.14888): https://www.acmicpc.net/problem/14888**
