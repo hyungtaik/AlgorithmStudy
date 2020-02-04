@@ -5,6 +5,14 @@
 **[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.15684): https://www.acmicpc.net/problem/15684**
 * boj_15684_second.java - solve (2H: fail - 1H 30M: resolve)
 
+**[BOJ] 알고리즘 보충 실습 문제 (No.1436): https://www.acmicpc.net/problem/1436**
+* boj_1436_3.java - solve (30M)
+
+## [2020-02-02] 
+----------------------------------------------
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.14891): https://www.acmicpc.net/problem/14891**
+* boj_14891.java - solve (1H 10M)
+
 ## [2020-01-30] 
 ----------------------------------------------
 **[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.14889): https://www.acmicpc.net/problem/14889**
