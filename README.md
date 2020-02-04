@@ -1,12 +1,14 @@
 # Algorithm Study
 
+## [2020-02-04] 
+----------------------------------------------
+**[BOJ] 알고리즘 보충 실습 문제 (No.1436): https://www.acmicpc.net/problem/1436**
+* boj_1436_3.java - solve (30M)
+
 ## [2020-02-03] 
 ----------------------------------------------
 **[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.15684): https://www.acmicpc.net/problem/15684**
 * boj_15684_second.java - solve (2H: fail - 1H 30M: resolve)
-
-**[BOJ] 알고리즘 보충 실습 문제 (No.1436): https://www.acmicpc.net/problem/1436**
-* boj_1436_3.java - solve (30M)
 
 ## [2020-02-02] 
 ----------------------------------------------
