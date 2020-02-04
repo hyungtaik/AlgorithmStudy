@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-02-05] 
+----------------------------------------------
+**[JUNGOL] 알고리즘 보충 숙제 (No.1113): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=393&sca=99**
+* jol_1113.java - solve (20M)
+
 ## [2020-02-04] 
 ----------------------------------------------
 **[BOJ] 알고리즘 보충 실습 문제 (No.1436): https://www.acmicpc.net/problem/1436**
