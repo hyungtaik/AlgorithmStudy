@@ -5,6 +5,15 @@
 **[JUNGOL] 알고리즘 보충 숙제 (No.1113): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=393&sca=99**
 * jol_1113.java - solve (20M)
 
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.16234): https://www.acmicpc.net/problem/16234**
+* boj_16234.java - solve (1H 10M)
+
+**[SWEA] SSAFY 실습 문제 (No.1224): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14tDX6AFgCFAYD&categoryId=AV14tDX6AFgCFAYD&categoryType=CODE**
+
+* swea_1224.java - solve (1H)
+**[SWEA] SSAFY 실습 문제 (No.1225): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD**
+* swea_1225.java - solve (20M)
+
 ## [2020-02-04] 
 ----------------------------------------------
 **[BOJ] 알고리즘 보충 실습 문제 (No.1436): https://www.acmicpc.net/problem/1436**
