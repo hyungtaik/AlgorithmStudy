@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-02-06] 
+----------------------------------------------
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.16235): https://www.acmicpc.net/problem/16235**
+* boj_16235.java - solve (1H 40M)
+
 ## [2020-02-05] 
 ----------------------------------------------
 **[JUNGOL] 알고리즘 보충 숙제 (No.1113): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=393&sca=99**
