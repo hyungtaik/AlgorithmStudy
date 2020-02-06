@@ -9,6 +9,9 @@
 **[SWEA] SSAFY 실습 문제 (No.5432): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWVl47b6DGMDFAXm&categoryId=AWVl47b6DGMDFAXm&categoryType=CODE**
 * swea_5432.java - solve (20M) 
 
+**[BOJ] 알고리즘 보충 숙제 (No.16987): https://www.acmicpc.net/problem/16987**
+* boj_16987.java - solve (40M)
+
 ## [2020-02-05] 
 ----------------------------------------------
 **[JUNGOL] 알고리즘 보충 숙제 (No.1113): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=393&sca=99**
