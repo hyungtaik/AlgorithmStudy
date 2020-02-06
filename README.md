@@ -6,6 +6,9 @@
 * boj_16235.java - solve (1H 40M)
 * boj_16235_second.java - solve (1H) : 정렬하여 푸는 방법 사용
 
+**[SWEA] SSAFY 실습 문제 (No.5432): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWVl47b6DGMDFAXm&categoryId=AWVl47b6DGMDFAXm&categoryType=CODE**
+* swea_5432.java - solve (20M) 
+
 ## [2020-02-05] 
 ----------------------------------------------
 **[JUNGOL] 알고리즘 보충 숙제 (No.1113): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=393&sca=99**
@@ -15,8 +18,8 @@
 * boj_16234.java - solve (1H 10M)
 
 **[SWEA] SSAFY 실습 문제 (No.1224): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14tDX6AFgCFAYD&categoryId=AV14tDX6AFgCFAYD&categoryType=CODE**
-
 * swea_1224.java - solve (1H)
+
 **[SWEA] SSAFY 실습 문제 (No.1225): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD**
 * swea_1225.java - solve (20M)
 
