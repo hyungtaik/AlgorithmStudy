@@ -1,5 +1,18 @@
 # Algorithm Study
 
+## [2020-02-09] 
+----------------------------------------------
+**[BOJ] 알고리즘 보충 숙제 (No.1600): https://www.acmicpc.net/problem/1600**
+* boj_16236.java - solve (1H) - 말이 되고픈 원숭이
+
+## [2020-02-07] 
+----------------------------------------------
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.16236): https://www.acmicpc.net/problem/16236**
+* boj_16236.java - solve (1H 30M) - 아기 상어
+
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.17144): https://www.acmicpc.net/problem/17144**
+* boj_17144.java - solve (40M) - 미세먼지 안녕
+
 ## [2020-02-06] 
 ----------------------------------------------
 **[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.16235): https://www.acmicpc.net/problem/16235**
