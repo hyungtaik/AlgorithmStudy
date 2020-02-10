@@ -1,5 +1,16 @@
 # Algorithm Study
 
+## [2020-02-10] 
+----------------------------------------------
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.17143): https://www.acmicpc.net/problem/17143**
+* boj_17143.java - solve (1H) - 낚시왕
+
+**[SWEA] SSAFY 실습 문제 (No.1873): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LyE7KD2ADFAXc&categoryId=AV5LyE7KD2ADFAXc&categoryType=CODE**
+* swea_1873.java - solve (30M) - 상호의 배틀 필드
+
+**[SWEA] SSAFY 실습 문제 (No.4408): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWNcJ2sapZMDFAV8&categoryId=AWNcJ2sapZMDFAV8&categoryType=CODE**
+* swea_4408.java - solve (1H) - 자기 방으로 돌아가기
+
 ## [2020-02-09] 
 ----------------------------------------------
 **[BOJ] 알고리즘 보충 숙제 (No.1600): https://www.acmicpc.net/problem/1600**
