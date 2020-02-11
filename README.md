@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-02-11] 
+----------------------------------------------
+**[SWEA] SSAFY 실습 문제 (No.1258): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18LoAqItcCFAZN&categoryId=AV18LoAqItcCFAZN&categoryType=CODE**
+* swea_1258.java - solve (30M) - 행렬 찾기
+
 ## [2020-02-10] 
 ----------------------------------------------
 **[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.17143): https://www.acmicpc.net/problem/17143**
@@ -10,6 +15,9 @@
 
 **[SWEA] SSAFY 실습 문제 (No.4408): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWNcJ2sapZMDFAV8&categoryId=AWNcJ2sapZMDFAV8&categoryType=CODE**
 * swea_4408.java - solve (1H) - 자기 방으로 돌아가기
+
+**[JUNGOL] SSAFY Homework (No.1828): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1101&sca=99&sfl=wr_hit&stx=1828**
+* jol_1828.java - solve (1H 30M) - 냉장고
 
 ## [2020-02-09] 
 ----------------------------------------------
