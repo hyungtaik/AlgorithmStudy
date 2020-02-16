@@ -1,5 +1,13 @@
 # Algorithm Study
 
+## [2020-02-14] 
+----------------------------------------------
+**[JUNGOL] SSAFY 실습 문제 (No.1863): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1136&sca=99&sfl=wr_hit&stx=1863**
+* jol_1863.java - solve (20M) - 종교
+
+**[BOJ] SSAFY 실습 문제 (No.4485): https://www.acmicpc.net/problem/3109**
+* boj_3109.java - solve (1H 30M) - 빵집
+
 ## [2020-02-12] 
 ----------------------------------------------
 **[BOJ] SSAFY Algorithm 보충 숙제 (No.4485): https://www.acmicpc.net/problem/4485**
