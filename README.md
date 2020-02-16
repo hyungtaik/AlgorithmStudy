@@ -1,9 +1,17 @@
 # Algorithm Study
 
+## [2020-02-12] 
+----------------------------------------------
+**[BOJ] SSAFY Algorithm 보충 숙제 (No.4485): https://www.acmicpc.net/problem/4485**
+* boj_4485.java - solve (1H 10M) - 녹색 옷 입은 애가 젤다지? 
+
 ## [2020-02-11] 
 ----------------------------------------------
 **[SWEA] SSAFY 실습 문제 (No.1258): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18LoAqItcCFAZN&categoryId=AV18LoAqItcCFAZN&categoryType=CODE**
 * swea_1258.java - solve (30M) - 행렬 찾기
+
+**[SWEA] SSAFY 실습 문제 (No.1873): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc&categoryId=AV5LtJYKDzsDFAXc&categoryType=CODE**
+* swea_1861.java - solve (30M) - 정사각형 방
 
 ## [2020-02-10] 
 ----------------------------------------------
