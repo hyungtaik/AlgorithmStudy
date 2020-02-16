@@ -1,11 +1,29 @@
 # Algorithm Study
 
-## [2020-02-14] 
+## [2020-02-16] 
 ----------------------------------------------
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.17140): https://www.acmicpc.net/problem/17140**
+* boj_17140.java - solve (1H 30M) - 이차원 배열과 연산
+
+## [2020-02-15] 
+----------------------------------------------
+**[BOJ] SSFAY Homework (No.7576):https://www.acmicpc.net/problem/7576**
+* boj_7576.java - solve (20M) - 토마토
+
+**[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.17135): https://www.acmicpc.net/problem/17135**
+* boj_17135.java - solve (2H 30M) - 캐슬 디펜스
+
+## [2020-02-14] 
+---------------------------------------------- 
 **[JUNGOL] SSAFY 실습 문제 (No.1863): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1136&sca=99&sfl=wr_hit&stx=1863**
 * jol_1863.java - solve (20M) - 종교
 
-**[BOJ] SSAFY 실습 문제 (No.4485): https://www.acmicpc.net/problem/3109**
+## [2020-02-13] 
+----------------------------------------------
+**[BOJ] 삼성 A형 기출 문제 (No.17471): https://www.acmicpc.net/problem/17471**
+* boj_17471.java - solve (2H 30M) - 게리맨더링
+
+**[BOJ] SSAFY 실습 문제 (No.3109): https://www.acmicpc.net/problem/3109**
 * boj_3109.java - solve (1H 30M) - 빵집
 
 ## [2020-02-12] 
