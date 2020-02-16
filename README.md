@@ -18,13 +18,14 @@
 **[JUNGOL] SSAFY 실습 문제 (No.1863): http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1136&sca=99&sfl=wr_hit&stx=1863**
 * jol_1863.java - solve (20M) - 종교
 
+**[BOJ] SSAFY 실습 문제 (No.3109): https://www.acmicpc.net/problem/3109**
+* boj_3109.java - solve (1H 30M) - 빵집
+
 ## [2020-02-13] 
 ----------------------------------------------
 **[BOJ] 삼성 A형 기출 문제 (No.17471): https://www.acmicpc.net/problem/17471**
 * boj_17471.java - solve (2H 30M) - 게리맨더링
 
-**[BOJ] SSAFY 실습 문제 (No.3109): https://www.acmicpc.net/problem/3109**
-* boj_3109.java - solve (1H 30M) - 빵집
 
 ## [2020-02-12] 
 ----------------------------------------------
