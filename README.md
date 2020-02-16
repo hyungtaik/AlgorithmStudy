@@ -5,6 +5,9 @@
 **[BOJ] 삼성 SW 역량 테스트 기출 문제 (No.17140): https://www.acmicpc.net/problem/17140**
 * boj_17140.java - solve (1H 30M) - 이차원 배열과 연산
 
+**[BOJ] 백준 10971번: 외판원 순회2 (No.10971): https://www.acmicpc.net/problem/10971**
+* boj_10971.java - solve (20M) - 외판원 순회2
+
 ## [2020-02-15] 
 ----------------------------------------------
 **[BOJ] SSFAY Homework (No.7576):https://www.acmicpc.net/problem/7576**
