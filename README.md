@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-02-18] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 7627번 프로세서 연결하기 (No.13913): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf&categoryId=AV4suNtaXFEDFAUf&categoryType=CODE**
+* swea_7627.java - solve (1H 20M) - 프로세서 연결하기
+
 ## [2020-02-17] 
 ----------------------------------------------
 **[BOJ] 백준 13913번 숨바꼭질 4 (No.13913): https://www.acmicpc.net/problem/13913**
