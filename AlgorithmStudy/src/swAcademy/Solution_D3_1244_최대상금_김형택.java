@@ -2,15 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.StringTokenizer;
 
 public class Solution_D3_1244_최대상금_김형택 {
 
 	private static int TC;
-	private static int[] pick;
-	private static int[] set;
 	private static int len;
 	private static int max;
 	private static int[] numbers;
@@ -56,8 +52,7 @@ public class Solution_D3_1244_최대상금_김형택 {
 			}
 			
 			if(count>=len-1) {
-				int l = len/2;
-				int tcount = count-l;
+				int tcount = count-len-1;
 				if((tcount%2) == 0 || checkNum) {
 					max = calc(numbers);
 				}else {
@@ -69,7 +64,6 @@ public class Solution_D3_1244_최대상금_김형택 {
 			}else {
 				solve(count,copy,max);
 			}
-			
 			
 			System.out.println("#" + tc + " " + max);
 		}
