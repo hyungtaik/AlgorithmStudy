@@ -1,5 +1,16 @@
 # Algorithm Study
 
+## [2020-02-19] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 1244번 최대 상금 (No.1244): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15Khn6AN0CFAYD**
+* Solution_D3_1244_최대상금_김형택.java - solve (1H 30M) - 최대 상금
+
+**[BOJ] 백준 17135번 캐슬 디펜스 (No.13913): https://www.acmicpc.net/problem/17135**
+* Main_B_17135_캐슬디펜스_김형택.java - solve - 캐슬디펜스를 Next_Permutation 이용하여 구현
+
+**[Exercise] Java로 Next_Permutaion 실습(순열,조합 공부)**
+* nextPermutaion_ex.java - Java로 next_permutation 구현 (순열, 조합에 응용)
+
 ## [2020-02-18] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 7627번 프로세서 연결하기 (No.13913): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf&categoryId=AV4suNtaXFEDFAUf&categoryType=CODE**
