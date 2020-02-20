@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-02-20] 
+----------------------------------------------
+**[BOJ] 백준 1931번 회의실 배정 (No.1931): https://www.acmicpc.net/problem/1931**
+* boj_1931.java - solve(10m) 
+
 ## [2020-02-19] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 1244번 최대 상금 (No.1244): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15Khn6AN0CFAYD**
