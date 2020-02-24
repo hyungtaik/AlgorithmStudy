@@ -5,6 +5,9 @@
 **[BOJ] 백준 1062번 가르침 (No.1062): https://www.acmicpc.net/problem/1062**
 * boj_1062.java - solve(1H 30m) 
 
+**[BOJ] 백준 1916번 가르침 (No.1916): https://www.acmicpc.net/problem/1916**
+* boj_1916.java - solve(1H) 
+
 ## [2020-02-23] 
 ----------------------------------------------
 **[BOJ] 백준 2206번 벽 부수고 이동하기 (No.2206): https://www.acmicpc.net/problem/2206**
