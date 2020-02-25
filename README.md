@@ -1,11 +1,16 @@
 # Algorithm Study
 
+## [2020-02-25] 
+----------------------------------------------
+**[BOJ] 백준 3055번 탈출 (No.3055): https://www.acmicpc.net/problem/3055**
+* boj_3055.java - solve(45m) 
+
 ## [2020-02-24] 
 ----------------------------------------------
 **[BOJ] 백준 1062번 가르침 (No.1062): https://www.acmicpc.net/problem/1062**
 * boj_1062.java - solve(1H 30m) 
 
-**[BOJ] 백준 1916번 가르침 (No.1916): https://www.acmicpc.net/problem/1916**
+**[BOJ] 백준 1916번 최소비용 구하기 (No.1916): https://www.acmicpc.net/problem/1916**
 * boj_1916.java - solve(1H) 
 
 ## [2020-02-23] 
