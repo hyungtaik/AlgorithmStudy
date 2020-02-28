@@ -1,8 +1,13 @@
 # Algorithm Study
 
+## [2020-02-28] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 2115번 벌꿀채취 (No.2115): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu**
+* swea_2115.java - solve(1H 30m) 
+
 ## [2020-02-27] 
 ----------------------------------------------
-**[SWEA] SW Expert Academy 1952번 수영장 (No.1952): https://www.acmicpc.net/problem/1952**
+**[SWEA] SW Expert Academy 1952번 수영장 (No.1952): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq**
 * swea_1952.java - solve(25m) 
 
 ## [2020-02-26] 
