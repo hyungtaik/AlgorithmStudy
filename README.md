@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-02-27] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 1952번 수영장 (No.1952): https://www.acmicpc.net/problem/1952**
+* swea_1952.java - solve(25m) 
+
 ## [2020-02-26] 
 ----------------------------------------------
 **[BOJ] 백준 1726번 로봇 (No.1726): https://www.acmicpc.net/problem/1726**
