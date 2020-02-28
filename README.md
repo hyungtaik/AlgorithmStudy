@@ -2,8 +2,12 @@
 
 ## [2020-02-28] 
 ----------------------------------------------
-**[SWEA] SW Expert Academy 2115번 벌꿀채취 (No.2115): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu**
+**[SWEA] SW Expert Academy 2115번 벌꿀 채취 (No.2115): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu**
 * swea_2115.java - solve(1H 30m) 
+
+**[SWEA] SW Expert Academy 1247번 최적 경로 (No.1247): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15OZ4qAPICFAYD**
+* swea_1247.java - solve(30m)
+* swea_1247_np.java - solve(30m) : nextPermutation 이용
 
 ## [2020-02-27] 
 ----------------------------------------------
