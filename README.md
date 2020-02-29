@@ -5,6 +5,9 @@
 **[BOJ] 백준 1938번 통나무 옮기기 (No.1938): https://www.acmicpc.net/problem/1938**
 * boj_1938.java - solve(1H40m) 
 
+**[BOJ] 백준 2589번 보물섬 (No.2589): https://www.acmicpc.net/problem/2589**
+* boj_2589.java - solve(40m) 
+
 ## [2020-02-28] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 2115번 벌꿀 채취 (No.2115): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu**
