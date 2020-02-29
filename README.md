@@ -8,6 +8,9 @@
 **[BOJ] 백준 2589번 보물섬 (No.2589): https://www.acmicpc.net/problem/2589**
 * boj_2589.java - solve(40m) 
 
+**[BOJ] 백준 10974번 모든 순열 (No.10974): https://www.acmicpc.net/problem/10974**
+* boj_10974.java - solve(15m) - 넥퍼, 재귀 사용 (StringBuilder 사용시 시간 단축 가능)
+
 ## [2020-02-28] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 2115번 벌꿀 채취 (No.2115): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu**
