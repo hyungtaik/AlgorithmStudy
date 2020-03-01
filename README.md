@@ -5,6 +5,9 @@
 **[BOJ] 백준 2234번 성곽 (No.2234): https://www.acmicpc.net/problem/2234**
 * boj_2234.java - solve(1H) 
 
+**[BOJ] 백준 2146번 다리 만들기 (No.2146): https://www.acmicpc.net/problem/2146**
+* boj_2146.java - solve(40m) 
+
 ## [2020-02-29] 
 ----------------------------------------------
 **[BOJ] 백준 1938번 통나무 옮기기 (No.1938): https://www.acmicpc.net/problem/1938**
