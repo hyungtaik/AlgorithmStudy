@@ -5,6 +5,9 @@
 **[BOJ] 백준 2573번 빙산 (No.2573): https://www.acmicpc.net/problem/2573**
 * boj_2573.java - solve(55m) 
 
+**[SWEA] SW Expert Academy 7699번 수지의 수지맞는 여행 (No.7699): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqUzj0arpkDFARG**
+* swea_7699.java - solve(20m) 
+
 ## [2020-03-01] 
 ----------------------------------------------
 **[BOJ] 백준 2234번 성곽 (No.2234): https://www.acmicpc.net/problem/2234**
