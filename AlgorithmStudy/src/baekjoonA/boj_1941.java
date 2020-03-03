@@ -11,9 +11,7 @@ public class boj_1941 {
 	private static int[] dy = { 0, 0, -1, 1 };
 	private static boolean[] person;
 	private static boolean[][] visited;
-	private static int[] princess;
 	private static int result;
-	private static boolean[][] check;
 	private static int cnt;
 
 	public static void main(String[] args) throws Exception {
@@ -30,69 +28,67 @@ public class boj_1941 {
 			}
 		}
 		result = 0;
-//		person = new boolean[25];
-//		visited = new boolean[5][5];
 
 		for (int i = 0; i < 25; i++) {
 			person = new boolean[25];
 			visited = new boolean[5][5];
-			combi(i, 1, 0);
+			person[i] = true;
+			visited[i / 5][i % 5] = true;
+			if (map[i/5][i%5] == 0) {
+				combi(i, 1, 0);
+			} else {
+				combi(i, 1, 1);
+			}
 		}
-
-//		if(map[0][0] == 0) {
-//			combi(0,0,0);
-//		}else {
-//			combi(0,0,1);
-//		}
 		System.out.println(result);
 	}
 
 	private static void combi(int index, int count, int s) {
-		if (map[index / 5][index % 5] == 1) {
-			s++;
-		}
-		
-		person[index] = true;
-		visited[index / 5][index % 5] = true;
-
 		if (count == 7) {
 			if (s >= 4) {
 				for (int i = 0; i < 25; i++) {
 					if (person[i]) {
-						boolean[][]	chk = new boolean[5][5];
-						chk[i / 5][i % 5] = true;
-						cnt=1;
-						dfs(i/5,i%5,chk);
+						boolean[][] check = new boolean[5][5];
+						check[i / 5][i % 5] = true;
+						cnt = 1;
+						dfs(i / 5, i % 5, check);
 						break;
 					}
 				}
 			}
-		}else {
-			for (int i = index + 1; i < 25; i++) {
-				if (!person[i]) {
-					combi(i, count + 1, s);
+			return;
+		} else {
+			for (int i = index+1; i < 25; i++) {
+				if(!person[i]) {
+					person[i] = true;
+					visited[i / 5][i % 5] = true;
+					if (map[i / 5][i % 5] == 1) {
+						combi(i, count + 1, s + 1);
+					} else {
+						combi(i, count + 1, s);
+					}
+					person[i] = false;
+					visited[i / 5][i % 5] = false;
 				}
 			}
+
 		}
-		person[index] = false;
-		visited[index / 5][index % 5] = false;
 	}
 
-	private static void dfs(int x, int y,boolean[][] chk) {
+	private static void dfs(int x, int y, boolean[][] check) {
 		if (cnt == 7) {
-//			System.out.println(Arrays.toString(princess));
 			result++;
-		}else {
-			for (int i = 0; i < 4; i++) {
-				int nx = x + dx[i];
-				int ny = y + dy[i];
-				if (nx < 0 || nx > 4 || ny < 0 || ny > 4)
-					continue;
-				if(visited[nx][ny] && !chk[nx][ny]) {
-					chk[nx][ny] = true;
-					cnt++;
-					dfs(nx,ny,chk);
-				}
+			return;
+		}
+		for (int i = 0; i < 4; i++) {
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+			if (nx < 0 || nx > 4 || ny < 0 || ny > 4)
+				continue;
+			if (visited[nx][ny] && !check[nx][ny]) {
+				check[nx][ny] = true;
+				cnt++;
+				dfs(nx, ny, check);
 			}
 		}
 	}
