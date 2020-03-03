@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-03-03] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 9282번 초콜렛과 건포도 (No.9282): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW9j-qfacIEDFAUY**
+* swea_9282.java - solve(3H) 
+
 ## [2020-03-02] 
 ----------------------------------------------
 **[BOJ] 백준 2573번 빙산 (No.2573): https://www.acmicpc.net/problem/2573**
