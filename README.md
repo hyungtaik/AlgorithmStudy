@@ -5,6 +5,9 @@
 **[SWEA] SW Expert Academy 9282번 초콜렛과 건포도 (No.9282): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW9j-qfacIEDFAUY**
 * swea_9282.java - solve(3H) 
 
+**[BOJ] 백준 1941번 소문난 칠공주 (No.1941): https://www.acmicpc.net/problem/1941**
+* boj_1941.java - solve(2H30m) 
+
 ## [2020-03-02] 
 ----------------------------------------------
 **[BOJ] 백준 2573번 빙산 (No.2573): https://www.acmicpc.net/problem/2573**
