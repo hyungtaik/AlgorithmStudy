@@ -5,6 +5,9 @@
 **[SWEA] SW Expert Academy 2105번 디저트 카페 (No.2105): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu**
 * swea_2105_2.java - solve(1H) 
 
+**[SWEA] SW Expert Academy 1808번 지희의 고장난 계산기 (No.1808): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4yC3pqCegDFAUx**
+* swea_1808.java - solve(2H) 
+
 ## [2020-03-03] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 9282번 초콜렛과 건포도 (No.9282): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW9j-qfacIEDFAUY**
