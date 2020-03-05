@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-03-05] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 2105번 디저트 카페 (No.2105): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu**
+* swea_2105_2.java - solve(1H) 
+
 ## [2020-03-03] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 9282번 초콜렛과 건포도 (No.9282): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AW9j-qfacIEDFAUY**
