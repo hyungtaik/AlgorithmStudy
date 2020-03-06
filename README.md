@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-03-06] 
+----------------------------------------------
+**[BOJ] 백준 1937번 욕심쟁이 판다 (No.1937): https://www.acmicpc.net/problem/1937**
+* boj_1937.java - solve(1H 30M) 
+
 ## [2020-03-05] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 2105번 디저트 카페 (No.2105): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu**
