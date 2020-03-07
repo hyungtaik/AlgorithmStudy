@@ -5,6 +5,9 @@
 **[SWEA] SW Expert Academy 7793번 오! 나의 여신님 (No.7793): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWsBQpPqMNMDFARG**
 * Solution_D5_7793_오나의여신님_김형택.java - solve(30M) 
 
+**[SWEA] SW Expert Academy 5656번 벽돌 깨기 (No.5656):https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo**
+* Solution_5656_벽돌깨기_김형택.java - solve(2) 
+
 ## [2020-03-06] 
 ----------------------------------------------
 **[BOJ] 백준 1937번 욕심쟁이 판다 (No.1937): https://www.acmicpc.net/problem/1937**
