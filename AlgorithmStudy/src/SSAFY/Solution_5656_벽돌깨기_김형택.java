@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class Solution_5656_º®µ¹±ú±â_±èÇüÅÃ {
+public class Solution_5656_ë²½ëŒê¹¨ê¸°_ê¹€í˜•íƒ{
 
 	private static int TC;
 	private static int N;
@@ -54,6 +54,7 @@ public class Solution_5656_º®µ¹±ú±â_±èÇüÅÃ {
 	}
 
 	private static void makeSet(int count) {
+		if(min == 0) return;
 		if (count == N) {
 			copy();
 			int brick = 0;
