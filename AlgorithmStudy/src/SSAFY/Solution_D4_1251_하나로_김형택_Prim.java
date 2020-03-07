@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Solution_D4_1251_ÇÏ³ª·Î_±èÇüÅÃ_Prim {
+public class Solution_D4_1251_í•˜ë‚˜ë¡œ_Prim {
 
 	private static int TC;
 	private static int N;
