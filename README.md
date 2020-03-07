@@ -6,7 +6,11 @@
 * Solution_D5_7793_오나의여신님_김형택.java - solve(30M) 
 
 **[SWEA] SW Expert Academy 5656번 벽돌 깨기 (No.5656):https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo**
-* Solution_5656_벽돌깨기_김형택.java - solve(2) 
+* Solution_5656_벽돌깨기_김형택.java - solve(2H)
+
+**[SWEA] SW Expert Academy 1251번 하나로 (No.1251):https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15StKqAQkCFAYD**
+* Solution_D4_1251_하나로_김형택_Prim.java - solve(2H 30M)
+* Solution_D4_1251_하나로_김형택_Kruskal.java - solve(1H 30M)
 
 ## [2020-03-06] 
 ----------------------------------------------
