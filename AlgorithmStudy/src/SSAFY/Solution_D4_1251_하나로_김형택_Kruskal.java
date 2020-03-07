@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Solution_D4_1251_ÇÏ³ª·Î_±èÇüÅÃ_Kruskal {
+public class Solution_D4_1251_í•˜ë‚˜ë¡œ_Kruskal {
 
 	private static int TC;
 	private static int N;
