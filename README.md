@@ -2,8 +2,11 @@
 
 ## [2020-03-09] 
 ----------------------------------------------
-**[SWEA] SW Expert Academy 7701번 오! 나의 여신님 (No.7701): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG**
+**[SWEA] SW Expert Academy 7701번 염라대왕의 이름 정렬 (No.7701): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG**
 * Solution_D4_7701_염라대왕의이름정렬_김형택.java - solve(20M) 
+
+**[SWEA] SW Expert Academy 3378번 스타일리쉬 들여쓰기 (No.3378): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWD3nB5q3T0DFAUZ**
+* Solution_D4_3378_스타일리쉬들여쓰기_김형택.java - solve(2H 30M) 
 
 ## [2020-03-07] 
 ----------------------------------------------
