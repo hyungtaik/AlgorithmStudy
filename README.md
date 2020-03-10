@@ -8,6 +8,9 @@
 **[SWEA] SW Expert Academy 4012번 [모의 SW 역량테스트] 요리사 (No.4012): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH**
 * Solution_모의_4012_요리사_김형택.java - solve(50M) 
 
+**[SWEA] SW Expert Academy 5604번 [Professional] 구간 합 (No.5604): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXGGNB6cnEDFAUo**
+* Solution_Pro_5604_구간합_김형택.java - solve(2H 40M) 
+
 ## [2020-03-09] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 7701번 염라대왕의 이름 정렬 (No.7701): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG**
