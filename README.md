@@ -5,6 +5,9 @@
 **[SWEA] SW Expert Academy 1868번 파핑파핑 지뢰찾기 (No.1868): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LwsHaD1MDFAXc**
 * Solution_D4_1868_파핑파핑지뢰찾기_김형택.java - solve(50M) 
 
+**[SWEA] SW Expert Academy 4012번 [모의 SW 역량테스트] 요리사 (No.4012): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH**
+* Solution_모의_4012_요리사_김형택.java - solve(50M) 
+
 ## [2020-03-09] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 7701번 염라대왕의 이름 정렬 (No.7701): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqU0zh6rssDFARG**
