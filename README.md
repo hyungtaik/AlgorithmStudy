@@ -3,7 +3,7 @@
 ## [2020-03-13] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 5987번 달리기 (No.5987): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWaJ4g86WA4DFAUQ**
-* Solution_D4_5987_달리기_김형택.java - Solve (2D + 3H) : 비트마스킹 공부 + 코드분석 + 직접 코드  
+* Solution_D4_5987_달리기_김형택.java - Solve (2D + 3H) : 비트마스킹 공부 + 코드분석 + 직접 코드 작성 
 
 ## [2020-03-11 ~ 12] 
 ----------------------------------------------
