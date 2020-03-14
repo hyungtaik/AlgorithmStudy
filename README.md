@@ -3,7 +3,10 @@
 ## [2020-03-15] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
-* Solution_D4_7194_화섭이의미생물배양_김형택.java - (30M) solve 
+* Solution_D4_7194_화섭이의미생물배양_김형택.java - (30M) resolve 
+
+**[SWEA] SW Expert Academy 5987번 달리기 (No.5987): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWaJ4g86WA4DFAUQ**
+* Solution_D4_5987_달리기_김형택_2.java - (20M) resolve
 
 ## [2020-03-14] 
 ----------------------------------------------
