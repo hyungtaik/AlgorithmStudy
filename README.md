@@ -1,5 +1,15 @@
 # Algorithm Study
 
+## [2020-03-15] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
+* Solution_D4_7194_화섭이의미생물배양_김형택.java - (30M) solve 
+
+## [2020-03-14] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
+* Solution_D4_7194_화섭이의미생물배양_김형택.java - Fail -> 코드 분석 (5H)
+
 ## [2020-03-13] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 5987번 달리기 (No.5987): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWaJ4g86WA4DFAUQ**
