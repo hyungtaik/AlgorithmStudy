@@ -1,6 +1,6 @@
 # Algorithm Study
 
-## [2020-03-15] 
+## [2020-03-14] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
 * Solution_D4_7194_화섭이의미생물배양_김형택.java - (30M) resolve 
@@ -8,15 +8,13 @@
 **[SWEA] SW Expert Academy 5987번 달리기 (No.5987): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWaJ4g86WA4DFAUQ**
 * Solution_D4_5987_달리기_김형택_2.java - (20M) resolve
 
-## [2020-03-14] 
-----------------------------------------------
-**[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
-* Solution_D4_7194_화섭이의미생물배양_김형택.java - Fail -> 코드 분석 (5H)
-
 ## [2020-03-13] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 5987번 달리기 (No.5987): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWaJ4g86WA4DFAUQ**
 * Solution_D4_5987_달리기_김형택.java - Solve (2D + 3H) : 비트마스킹 공부 + 코드분석 + 직접 코드 작성 
+
+**[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
+* Solution_D4_7194_화섭이의미생물배양_김형택.java - Fail -> 코드 분석 (5H)
 
 ## [2020-03-11 ~ 12] 
 ----------------------------------------------
