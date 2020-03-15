@@ -8,6 +8,10 @@
 **[BOJ] 백준 15683번 감시 (No.15683): https://www.acmicpc.net/problem/15683**
 * boj_15683.java - solve(1H) 
 
+**[BOJ] 백준 1976번 여행가자 (No.1976): https://www.acmicpc.net/problem/1976**
+* boj_1976.java - solve (40M) : DFS
+* boj_1976_disjointSet.java - solve (20M) : DisjointSet
+
 ## [2020-03-14] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
