@@ -2,7 +2,7 @@
 
 ## [2020-03-15] 
 ----------------------------------------------
-**[BOJ] 백준 1753번 최단 경로(No.1937): https://www.acmicpc.net/problem/1753**
+**[BOJ] 백준 1753번 최단 경로(No.1753): https://www.acmicpc.net/problem/1753**
 * boj_1753.java - solve(1H 10M) 
 
 **[BOJ] 백준 15683번 감시 (No.15683): https://www.acmicpc.net/problem/15683**
