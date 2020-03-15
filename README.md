@@ -5,6 +5,9 @@
 **[BOJ] 백준 1753번 최단 경로(No.1937): https://www.acmicpc.net/problem/1753**
 * boj_1753.java - solve(1H 10M) 
 
+**[BOJ] 백준 15683번 감시 (No.15683): https://www.acmicpc.net/problem/15683**
+* boj_15683.java - solve(1H) 
+
 ## [2020-03-14] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 7194번 화섭이의 미생물 배양 (No.7194): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWksRe4KARQDFAVE**
