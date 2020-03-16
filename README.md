@@ -5,6 +5,9 @@
 **[BOJ] 백준 2580번 스도쿠 (No.2580): https://www.acmicpc.net/problem/2580**
 * boj_2580.java - solve(50M)
 
+**[BOJ] 백준 14890번 경사로 (No.14890): https://www.acmicpc.net/problem/14890**
+* boj_14890.java - solve(1)
+
 ## [2020-03-15] 
 ----------------------------------------------
 **[BOJ] 백준 1753번 최단 경로(No.1753): https://www.acmicpc.net/problem/1753**
