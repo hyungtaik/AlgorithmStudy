@@ -5,6 +5,9 @@
 **[BOJ] 백준 15685번 드래곤 커브 (No.15685): https://www.acmicpc.net/problem/15685**
 * boj_15685.java - solve(50M)
 
+**[BOJ] 백준 14501번 퇴사 (No.14501): https://www.acmicpc.net/problem/14501**
+* boj_14501.java - solve(15M)
+
 ## [2020-03-16] 
 ----------------------------------------------
 **[BOJ] 백준 2580번 스도쿠 (No.2580): https://www.acmicpc.net/problem/2580**
