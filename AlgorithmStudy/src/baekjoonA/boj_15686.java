@@ -45,7 +45,7 @@ public class boj_15686 {
 		System.out.println(min);
 		
 	}
-	
+	// 조합
 	static void combi(int index,int count) {
 		if(count==M) {
 			calc();
