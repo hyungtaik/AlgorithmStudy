@@ -5,6 +5,9 @@
 **[BOJ] 백준 15686번 치킨 배달 (No.15686): https://www.acmicpc.net/problem/15686**
 * boj_15686.java - solve(40M)
 
+**[BOJ] 백준 3190번 뱀 (No.3190): https://www.acmicpc.net/problem/3190**
+* boj_3190.java - solve(40M)
+
 ## [2020-03-17] 
 ----------------------------------------------
 **[BOJ] 백준 15685번 드래곤 커브 (No.15685): https://www.acmicpc.net/problem/15685**
