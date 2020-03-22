@@ -5,6 +5,9 @@
 **[BOJ] 백준 17822번 원판 돌리기 (No.17822): https://www.acmicpc.net/problem/17822**
 * boj_17822.java - solve(2H)
 
+**[BOJ] 백준 17142번 연구소3 (No.17142): https://www.acmicpc.net/problem/17142**
+* boj_17142.java - solve(1H)
+
 ## [2020-03-18] 
 ----------------------------------------------
 **[BOJ] 백준 15686번 치킨 배달 (No.15686): https://www.acmicpc.net/problem/15686**
