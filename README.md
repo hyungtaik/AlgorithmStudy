@@ -9,7 +9,7 @@
 * boj_17142.java - solve(1H)
 
 **[BOJ] 백준 17825번 주사위 윷놀이 (No.17825): https://www.acmicpc.net/problem/17825**
-* boj_17825.java - solve(3H 30)
+* boj_17825.java - solve(3H 30M)
 
 ## [2020-03-18] 
 ----------------------------------------------
