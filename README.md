@@ -8,6 +8,9 @@
 **[BOJ] 백준 1697번 숨바꼭질 (No.1697): https://www.acmicpc.net/problem/1697**
 * boj_1697.java - solve(30M)
 
+**[BOJ] 백준 8895번 막대 배치 (No.8895): https://www.acmicpc.net/problem/8895**
+* boj_8895.java - solve(2H)
+
 ## [2020-03-24] 
 ----------------------------------------------
 **[BOJ] 백준 17837번 새로운 게임2 (No.17837): https://www.acmicpc.net/problem/17837**
