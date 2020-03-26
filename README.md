@@ -5,7 +5,7 @@
 **[BOJ] 백준 2606번 바이러스 (No.2606): https://www.acmicpc.net/problem/2606**
 * boj_2606.java - solve(30M)
 
-**[BOJ] 백준 1697번 바이러스 (No.1697): https://www.acmicpc.net/problem/1697**
+**[BOJ] 백준 1697번 숨바꼭질 (No.1697): https://www.acmicpc.net/problem/1697**
 * boj_1697.java - solve(30M)
 
 ## [2020-03-24] 
