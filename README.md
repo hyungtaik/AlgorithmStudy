@@ -1,5 +1,13 @@
 # Algorithm Study
 
+## [2020-03-27] 
+----------------------------------------------
+**[BOJ] 백준 1707번 이분 그래프 (No.1707): https://www.acmicpc.net/problem/1707**
+* boj_1707.java - solve(30M)
+
+**[BOJ] 백준 2839번 설탕 배달 (No.2839): https://www.acmicpc.net/problem/2839**
+* boj_2839.java - solve(15M)
+
 ## [2020-03-26] 
 ----------------------------------------------
 **[BOJ] 백준 2606번 바이러스 (No.2606): https://www.acmicpc.net/problem/2606**
