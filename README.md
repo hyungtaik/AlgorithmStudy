@@ -2,8 +2,11 @@
 
 ## [2020-04-01] 
 ----------------------------------------------
-**[Programmers] 해시 - 완주하지 못한 선수: https://programmers.co.kr/learn/courses/30/lessons/42576**
-* 해시_완주하지못한선수java - solve(40M)
+**[Programmers] 완주하지 못한 선수: https://programmers.co.kr/learn/courses/30/lessons/42576**
+* 해시_완주하지못한선수.java - solve(40M)
+
+**[Programmers] 전화번호 목록: https://programmers.co.kr/learn/courses/30/lessons/42577**
+* 전화번호목록.java - solve(20M)
 
 ## [2020-03-27] 
 ----------------------------------------------
