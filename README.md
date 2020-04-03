@@ -1,5 +1,13 @@
 # Algorithm Study
 
+## [2020-04-03] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 4530번 극한의 청소 작업 (No.4530): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWO6cgzKOIEDFAWw&categoryId=AWO6cgzKOIEDFAWw&categoryType=CODE**
+* Solution_D4_4530_극한의청소작업_김형택.java - (1H) solve 
+
+**[BOJ] 백준 1699번 제곱수의 합 (No.1699): https://www.acmicpc.net/problem/1699**
+* boj_1699.java - solve(40M)
+
 ## [2020-04-02] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 5607번 [Professional] 조합 (No.5607): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXGKdbqczEDFAUo**
