@@ -1,5 +1,34 @@
 # Algorithm Study
 
+## [2020-04-04] 
+----------------------------------------------
+**[Programmers] 네트워크: https://programmers.co.kr/learn/courses/30/lessons/43162**
+* 네트워크.java - solve(20M)
+
+**[Programmers] 단어변환: https://programmers.co.kr/learn/courses/30/lessons/43163**
+* 단어변환.java - solve(20M)
+
+**[Programmers] 숫자야구: https://programmers.co.kr/learn/courses/30/lessons/42841**
+* 숫자야구.java - solve(30M)
+
+**[Programmers] 여행경로: https://programmers.co.kr/learn/courses/30/lessons/43164**
+* 여행경로.java - solve(1H)
+
+**[Programmers] 카펫: https://programmers.co.kr/learn/courses/30/lessons/42842**
+* 카펫.java - solve(45M)
+
+**[Programmers] 해시_베스트앨범: https://programmers.co.kr/learn/courses/30/lessons/42579**
+* 해시_베스트앨범.java - solve(1H)
+
+**[Programmers] H-Index: https://programmers.co.kr/learn/courses/30/lessons/42747**
+* HIndex.java - solve(30M)
+
+**[Programmers] SkillCheckTestLevel2_1: https://programmers.co.kr/skill_checks**
+* SkillCheckTestLevel2_1.java - solve(10M)
+
+**[Programmers] SkillCheckTestLevel3_2: https://programmers.co.kr/skill_checks**
+* SkillCheckTestLevel3_2.java - solve(45M)
+
 ## [2020-04-03] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 4530번 극한의 청소 작업 (No.4530): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWO6cgzKOIEDFAWw&categoryId=AWO6cgzKOIEDFAWw&categoryType=CODE**
