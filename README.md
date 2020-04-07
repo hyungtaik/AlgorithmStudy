@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-04-07] 
+----------------------------------------------
+**[BOJ] 백준 3980번 선발 명단 (No.3980): https://www.acmicpc.net/problem/3980**
+* boj_3980.java - solve(30M)
+
 ## [2020-04-04] 
 ----------------------------------------------
 **[Programmers] 네트워크: https://programmers.co.kr/learn/courses/30/lessons/43162**
