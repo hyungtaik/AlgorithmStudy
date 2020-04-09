@@ -3,8 +3,11 @@
 ## [2020-04-09] 
 ----------------------------------------------
 **[BOJ] 백준 17070번 파이프 옮기기 1 (No.17070): https://www.acmicpc.net/problem/17070**
-* boj_17070.java - solve DFS(20M) - 
+* boj_17070.java - solve DFS(20M)
 * boj_17070_dp.java - solve DP(1H) 
+
+**[BOJ] 백준 1197번 최소 스패닝 트리 (No.1197): https://www.acmicpc.net/problem/1197**
+* boj_1197.java - solve (20M)
 
 ## [2020-04-08] 
 ----------------------------------------------
