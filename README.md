@@ -1,5 +1,11 @@
 # Algorithm Study
 
+## [2020-04-09] 
+----------------------------------------------
+**[BOJ] 백준 17070번 파이프 옮기기 1 (No.17070): https://www.acmicpc.net/problem/17070**
+* boj_17070.java - solve DFS(20M) - 
+* boj_17070_dp.java - solve DP(1H) 
+
 ## [2020-04-08] 
 ----------------------------------------------
 **[BOJ] 백준 1922번 네트워크 연결 (No.1922): https://www.acmicpc.net/problem/1922**
