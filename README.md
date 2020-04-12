@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-04-12] 
+----------------------------------------------
+**[BOJ] 백준 11559번 Puyo Puyo (No.11559): https://www.acmicpc.net/problem/11559**
+* boj_11559.java - solve (1H 20M)
+
 ## [2020-04-11] 
 ----------------------------------------------
 **[BOJ] 백준 1786번 찾기 (No.1786): https://www.acmicpc.net/problem/1786**
