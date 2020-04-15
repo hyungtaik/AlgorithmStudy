@@ -8,6 +8,9 @@
 **[BOJ] 백준 17136번 색종이 붙이기 (No.17136): https://www.acmicpc.net/problem/17136**
 * boj_17136.java - solve (1H 30M)
 
+**[BOJ] 백준 17281번 ⚾ (야구) (No.17281): https://www.acmicpc.net/problem/17281**
+* boj_17281.java - solve (1H 30M)
+
 ## [2020-04-12] 
 ----------------------------------------------
 **[BOJ] 백준 11559번 Puyo Puyo (No.11559): https://www.acmicpc.net/problem/11559**
