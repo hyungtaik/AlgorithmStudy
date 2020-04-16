@@ -8,6 +8,9 @@
 **[BOJ] 백준 2636번 치즈 (No.2636): https://www.acmicpc.net/problem/2636**
 * boj_2636.java - solve (30M)
 
+**[BOJ] 백준 2579번 계단 오르기 (No.2579): https://www.acmicpc.net/problem/2579**
+* boj_2579.java - solve (30M)
+
 ## [2020-04-15] 
 ----------------------------------------------
 **[BOJ] 백준 16637번 괄호 추가하기 (No.16637): https://www.acmicpc.net/problem/16637**
