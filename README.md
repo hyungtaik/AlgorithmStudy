@@ -5,6 +5,9 @@
 **[BOJ] 백준 11727번 2×n 타일링 2 (No.11727): https://www.acmicpc.net/problem/11727**
 * boj_11727.java - solve (30M)
 
+**[BOJ] 백준 2636번 치즈 (No.2636): https://www.acmicpc.net/problem/2636**
+* boj_2636.java - solve (30M)
+
 ## [2020-04-15] 
 ----------------------------------------------
 **[BOJ] 백준 16637번 괄호 추가하기 (No.16637): https://www.acmicpc.net/problem/16637**
