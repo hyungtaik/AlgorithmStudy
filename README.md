@@ -11,6 +11,9 @@
 **[BOJ] 백준 2579번 계단 오르기 (No.2579): https://www.acmicpc.net/problem/2579**
 * boj_2579.java - solve (30M)
 
+**[BOJ] 백준 11404번 플로이드 (No.11404): https://www.acmicpc.net/problem/11404**
+* boj_11404.java - solve (40M)
+
 ## [2020-04-15] 
 ----------------------------------------------
 **[BOJ] 백준 16637번 괄호 추가하기 (No.16637): https://www.acmicpc.net/problem/16637**
