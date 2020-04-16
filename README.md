@@ -14,6 +14,9 @@
 **[BOJ] 백준 11404번 플로이드 (No.11404): https://www.acmicpc.net/problem/11404**
 * boj_11404.java - solve (40M)
 
+**[BOJ] 백준 2156번 포도주 시식 (No.2156: https://www.acmicpc.net/problem/2156**
+* boj_2156.java - solve (1)
+
 ## [2020-04-15] 
 ----------------------------------------------
 **[BOJ] 백준 16637번 괄호 추가하기 (No.16637): https://www.acmicpc.net/problem/16637**
