@@ -2,7 +2,7 @@
 
 ## [2020-04-16] 
 ----------------------------------------------
-**[BOJ] 백준 11727번 Puyo Puyo (No.11727): https://www.acmicpc.net/problem/11727**
+**[BOJ] 백준 11727번 2×n 타일링 2 (No.11727): https://www.acmicpc.net/problem/11727**
 * boj_11727.java - solve (30M)
 
 ## [2020-04-15] 
