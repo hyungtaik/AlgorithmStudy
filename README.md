@@ -3,7 +3,8 @@
 ## [2020-04-29] 
 ----------------------------------------------
 **[BOJ] 백준 5557번 1학년 (No.5557): https://www.acmicpc.net/problem/5557**
-* boj_5557.java - solve (2H)
+* boj_5557.java - solve (2H) - DP
+* boj_5557_test.java - solve (20M) - class 사용
 
 **[SWEA] SW Expert Academy 5658번 보물상자 비밀번호 (No.5658): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo**
 * Solution_모의_5658_보물상자비밀번호.java - solve (40M)
