@@ -6,7 +6,10 @@
 * boj_5557.java - solve (2H)
 
 **[SWEA] SW Expert Academy 5658번 보물상자 비밀번호 (No.5658): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo**
-* Solution_모의_5658_보물상자비밀번호.java - solve (40)
+* Solution_모의_5658_보물상자비밀번호.java - solve (40M)
+
+**[SWEA] SW Expert Academy 4050번 재관이의 대량할인 (No.4050): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIseXoKEUcDFAWN**
+* Solution_D4_4050_재관이의대량할인_김형택.java - solve (15M)
 
 ## [2020-04-19] 
 ----------------------------------------------
