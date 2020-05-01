@@ -1,5 +1,10 @@
 # Algorithm Study
 
+## [2020-05-01] 
+----------------------------------------------
+**[SWEA] SW Expert Academy 4366번 정식이의 은행업무 (No.4366): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWMeRLz6kC0DFAXd**
+* swea_4366.java - solve (40M)
+
 ## [2020-04-30] 
 ----------------------------------------------
 **[BOJ] 백준 17406번 배열 돌리기 4 (No.17406): https://www.acmicpc.net/problem/17406**
