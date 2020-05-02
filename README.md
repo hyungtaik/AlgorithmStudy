@@ -6,7 +6,8 @@
 * boj_1261.java - solve (30M)
 
 **[BOJ] 백준 1238번 파티 (No.1238): https://www.acmicpc.net/problem/1238**
-* boj_1238.java - solve (1H 30M)
+* boj_1238.java - solve (1H 30M) - 다익스트라
+* boj_1238_FloydWarshall.java - solve (20M) - 플로이드 와샬
 ----------------------------------------------
 ## [2020-05-01] 
 ----------------------------------------------
