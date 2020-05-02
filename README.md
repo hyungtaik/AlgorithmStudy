@@ -4,8 +4,7 @@
 ----------------------------------------------
 **[BOJ] 백준 1261번 알고스팟 (No.1261): https://www.acmicpc.net/problem/1261**
 * boj_1261.java - solve (30M)
-
-
+----------------------------------------------
 ## [2020-05-01] 
 ----------------------------------------------
 **[SWEA] SW Expert Academy 4366번 정식이의 은행업무 (No.4366): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWMeRLz6kC0DFAXd**
