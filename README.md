@@ -9,6 +9,9 @@
 **[BOJ] 백준 1986번 체스 (No.1986): https://www.acmicpc.net/problem/1986**
 * boj_1986.java - solve (20M)
 
+**[Programmers] 2020_KAKAO 문자열 압축 : https://programmers.co.kr/learn/courses/30/lessons/60057**
+* Kakao2020_문자열압축.java - solve(1H)
+
 ----------------------------------------------
 ## [2020-05-02] 
 ----------------------------------------------
