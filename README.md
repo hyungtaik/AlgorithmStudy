@@ -6,6 +6,9 @@
 **[BOJ] 백준 17086번 아기상어2 (No.17086): https://www.acmicpc.net/problem/17086**
 * boj_17086.java - solve (20M)
 
+**[Programmers] 2019_KAKAO_겨울인턴 징검다리 건너기 : https://programmers.co.kr/learn/courses/30/lessons/64062**
+* Kakao2019_징검다리건너기.java - solve(1H 30M)
+
 ----------------------------------------------
 ## [2020-05-06]
 ----------------------------------------------
