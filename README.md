@@ -1,6 +1,12 @@
 # Algorithm Study
 
 ----------------------------------------------
+## [2020-05-22]
+----------------------------------------------
+**[SWEA] SW Expert Academy 3234번 준환이의 양팔저울 (No.4366): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw&categoryId=AWAe7XSKfUUDFAUw&categoryType=CODE**
+* swea_3234.java - solve (1H)
+
+----------------------------------------------
 ## [2020-05-21]
 ----------------------------------------------
 **[BOJ] 백준 1912번 연속합  (No.1912): https://www.acmicpc.net/problem/1912**
