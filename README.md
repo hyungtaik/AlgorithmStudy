@@ -1,6 +1,12 @@
 # Algorithm Study
 
 ----------------------------------------------
+## [2020-05-28]
+----------------------------------------------
+**[SWEA] SW Expert Academy 1953번 탈주범 검거 (No.1953): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUqE**
+* swea_1953.java - solve (30M)
+
+----------------------------------------------
 ## [2020-05-22]
 ----------------------------------------------
 **[SWEA] SW Expert Academy 3234번 준환이의 양팔저울 (No.3234): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw&categoryId=AWAe7XSKfUUDFAUw&categoryType=CODE**
