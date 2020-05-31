@@ -1,6 +1,12 @@
 # Algorithm Study
 
 ----------------------------------------------
+## [2020-05-31]
+----------------------------------------------
+**[BOJ] 백준 1018번 체스판 다시칠하기  (No.1018): https://www.acmicpc.net/problem/1018**
+* boj_1018.java - solve (20M)
+
+----------------------------------------------
 ## [2020-05-28]
 ----------------------------------------------
 **[SWEA] SW Expert Academy 1953번 탈주범 검거 (No.1953): https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUqE**
@@ -18,7 +24,7 @@
 **[BOJ] 백준 1912번 연속합  (No.1912): https://www.acmicpc.net/problem/1912**
 * boj_1912.java - solve (30M)
 
-**[BOJ] 백준 1463번 연속합  (No.1463): https://www.acmicpc.net/problem/1463**
+**[BOJ] 백준 1463번 1로 만들기  (No.1463): https://www.acmicpc.net/problem/1463**
 * boj_1463.java - solve (30M)
 
 ----------------------------------------------
