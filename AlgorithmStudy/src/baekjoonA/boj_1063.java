@@ -33,7 +33,7 @@ public class boj_1063 {
 
 		int N = Integer.parseInt(st.nextToken());
 
-		// 명령
+		// 명령 (킹의 이동)
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine(), "");
 			String command = st.nextToken();
