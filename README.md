@@ -1,11 +1,18 @@
-# Algorithm Study
+# 👨‍💻 Algorithm Study 👩‍💻
 ---
-### Ctrl + F 를 이용하여 알고리즘 문제의 번호를 검색하여 확인해보세요! 
+### 🔍 Ctrl + F 를 이용하여 알고리즘 문제의 번호를 검색하여 확인해보세요! 
+ - 🔗 백준 🔗 SW Expert Academy 🔗 정올
 
+----------------------------------------------
+## [2020-08-16]
+----------------------------------------------
+**[BOJ] 백준 1074번 Z (No.1074): https://www.acmicpc.net/problem/1074**
+* [boj_1074_recursion.java - solve (40M) : 재귀](AlgorithmStudy/src/baekjoonA/boj_1074_recursion.java)
+* [boj_1074_mergeSort.java - solve (20M) : 분할 정복](AlgorithmStudy/src/baekjoonA/boj_1074_mergeSort.java)
 ----------------------------------------------
 ## [2020-08-15]
 ----------------------------------------------
-**[BOJ] 백준 1018번 킹 (No.1063): https://www.acmicpc.net/problem/1063**
+**[BOJ] 백준 1063번 킹 (No.1063): https://www.acmicpc.net/problem/1063**
 * [boj_1063.java - solve (40M) : 시뮬레이션](AlgorithmStudy/src/baekjoonA/boj_1063.java)
 
 ----------------------------------------------
