@@ -4,7 +4,7 @@
  - 🔗 백준 🔗 SW Expert Academy 🔗 정올
  
 ### 💻 Commit ule
-- 날 짜 | Update | README.md
+- 날 짜 | Update | README.md - Problem : 푼 문제 수
 - 날 짜 | Done | 문제풀이사이트_문제번호_문제이름.java
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 ----------------------------------------------
@@ -12,6 +12,9 @@
 ----------------------------------------------
 **[BOJ] 백준 2638번 치즈 (No.2638): https://www.acmicpc.net/problem/2638**
 * [boj_2638.java - solve (40M) : 시뮬레이션 + BFS](AlgorithmStudy/src/baekjoonA/boj_2638.java)
+
+**[BOJ] 백준 1890번 점프 (No.1890): https://www.acmicpc.net/problem/1890**
+* [boj_1890.java - solve (40M) : DP ](AlgorithmStudy/src/baekjoonA/boj_1890.java)
 
 ----------------------------------------------
 ## [2020-08-17]
