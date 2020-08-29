@@ -14,6 +14,9 @@
 **[BOJ] 백준 14442번 벽 부수고 이동하기 2 (No.14442): https://www.acmicpc.net/problem/14442**
 * [boj_14442.java - solve (35M) : BFS](AlgorithmStudy/src/baekjoonA/boj_14442.java)
 
+**[Programmers] 2020_KAKAO 문자열 압축 : https://programmers.co.kr/learn/courses/30/lessons/60057**
+* [KAKAO_2020_문자열압축.java - solve (1H 30M) : 문자열(시뮬레이션)](AlgorithmStudy/src/programmers/KAKAO_2020_문자열압축.java)
+
 ----------------------------------------------
 ## [2020-08-28]
 ----------------------------------------------
