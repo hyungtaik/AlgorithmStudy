@@ -9,9 +9,11 @@ import java.util.StringTokenizer;
 /**
  * 
  * @author TAEK
- * @category
+ * @category BFS + 시뮬레이션
  * 
- * 			@see 백준 2931번 : 가스관
+ * @see 백준 2931번 : 가스관<br>
+ * 		메모리 : 13056 KB
+ * 		시간 : 80 ms
  * 
  * @since 2020-08-30
  * 
@@ -66,7 +68,7 @@ public class boj_2931 {
 			int ny = start.y + dy[i];
 			if (nx < 0 || nx > R - 1 || ny < 0 || ny > C - 1)
 				continue;
-			if (map[nx][ny] == '.')
+			if (map[nx][ny] == '.' || map[nx][ny] == 'Z')
 				continue;
 			q.add(new Point(nx, ny));
 			visited[nx][ny] = true;
@@ -163,8 +165,9 @@ public class boj_2931 {
 			if (dir == 0 || dir == 3)
 				return true;
 			return false;
+		default:
+			return false;
 		}
-		return false;
 	}
 
 	static class Point {
@@ -179,5 +182,4 @@ public class boj_2931 {
 			this.y = y;
 		}
 	}
-
 }
