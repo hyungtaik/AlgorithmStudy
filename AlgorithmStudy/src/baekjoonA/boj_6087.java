@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 /**
  * 
  * @author TAEK
- * @category 
+ * @category BFS
  * 
  * @see 백준 6087번: 레이저 통신 <br>
  *      메모리: 66212 KB <br>
