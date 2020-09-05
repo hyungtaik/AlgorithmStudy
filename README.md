@@ -15,7 +15,7 @@
 * [boj_4179.java - solve (40M) : BFS](AlgorithmStudy/src/baekjoonA/boj_4179.java)
 
 **[Programmers] 코딩테스트 연습>스택/큐>주식가격 : https://programmers.co.kr/learn/courses/30/lessons/42584**
-* [주식가격.java - solve (1H 30M) : Array](AlgorithmStudy/src/programmers/주식가격.java)
+* [주식가격.java - solve (20M) : Array](AlgorithmStudy/src/programmers/주식가격.java)
 
 ----------------------------------------------
 ## [2020-09-04]
