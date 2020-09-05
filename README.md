@@ -14,6 +14,9 @@
 **[BOJ] 백준 4179번 불! (No.4179): https://www.acmicpc.net/problem/4179**
 * [boj_4179.java - solve (40M) : BFS](AlgorithmStudy/src/baekjoonA/boj_4179.java)
 
+**[Programmers] 코딩테스트 연습>스택/큐>주식가격 : https://programmers.co.kr/learn/courses/30/lessons/42584**
+* [주식가격.java - solve (1H 30M) : Array](AlgorithmStudy/src/programmers/주식가격.java)
+
 ----------------------------------------------
 ## [2020-09-04]
 ----------------------------------------------
