@@ -12,7 +12,7 @@
 ## [2020-09-06]
 ----------------------------------------------
 **[BOJ] 백준 9944번 NxM 보드 완주하기 (No.9944): https://www.acmicpc.net/problem/9944**
-* [boj_9944.java - solve (1H 20M) : DFS(백트래킹)](AlgorithmStudy/src/baekjoonA/boj_9944.java)
+* [boj_9944.java - solve (1H 20M) : DFS (백트래킹)](AlgorithmStudy/src/baekjoonA/boj_9944.java)
 
 ----------------------------------------------
 ## [2020-09-05]
