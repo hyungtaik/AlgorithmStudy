@@ -9,6 +9,12 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-09-09]
+----------------------------------------------
+**[Programmers] 2020_KAKAO 자물쇠와 열쇠 : https://programmers.co.kr/learn/courses/30/lessons/60059**
+* [KAKAO2020_자물쇠와열쇠.java - solve (1H 20M) : 시뮬레이션(재귀)](AlgorithmStudy/src/programmers/KAKAO2020_자물쇠와열쇠.java)
+
+----------------------------------------------
 ## [2020-09-08]
 ----------------------------------------------
 **[Programmers] 2020_KAKAO 괄호 변환 : https://programmers.co.kr/learn/courses/30/lessons/60058**
