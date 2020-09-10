@@ -9,6 +9,12 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-09-10]
+----------------------------------------------
+**[Programmers] 2020_KAKAO 기둥과 보 설치 : https://programmers.co.kr/learn/courses/30/lessons/60061**
+* [KAKAO2020_기둥과보설치.java - solve (1H 50M) : 시뮬레이션](AlgorithmStudy/src/programmers/KAKAO2020_기둥과보설치.java)
+
+----------------------------------------------
 ## [2020-09-09]
 ----------------------------------------------
 **[Programmers] 2020_KAKAO 자물쇠와 열쇠 : https://programmers.co.kr/learn/courses/30/lessons/60059**
