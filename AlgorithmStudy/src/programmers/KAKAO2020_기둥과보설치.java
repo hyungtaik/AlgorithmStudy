@@ -19,7 +19,7 @@ public class KAKAO2020_기둥과보설치 {
 		int[][] build_frame = { { 1, 0, 0, 1 }, { 1, 1, 1, 1 }, { 2, 1, 0, 1 }, { 2, 2, 1, 1 }, { 5, 0, 0, 1 },
 				{ 5, 1, 0, 1 }, { 4, 2, 1, 1 }, { 3, 2, 1, 1 } };
 		int[][] result = s.solution(n, build_frame);
-		for (int i = 0; i < n; i++) {
+		for (int i = 0; i < result.length; i++) {
 			for (int j = 0; j < 3; j++) {
 				System.out.print(result[i][j] + " ");
 			}
@@ -33,46 +33,45 @@ public class KAKAO2020_기둥과보설치 {
 		public int[][] solution(int n, int[][] build_frame) {
 			int count = 0;
 
-			pillar = new boolean[n + 2][n + 2];
-			bo = new boolean[n + 2][n + 2];
+			pillar = new boolean[n + 1][n + 1];
+			bo = new boolean[n + 1][n + 1];
 
 			for (int i = 0; i < build_frame.length; i++) {
-				int y = build_frame[i][0] + 1; // col
-				int x = build_frame[i][1] + 1; // row
+				int x = n - build_frame[i][1]; // row
+				int y = build_frame[i][0]; // col
 				int arch = build_frame[i][2]; // 건축물
 				int ok = build_frame[i][3]; // 설치 삭제 여부
-				
-				// ok   - 설치 : 1 | 삭제 : 0
+
+				// ok - 설치 : 1 | 삭제 : 0
 				// arch - 기둥 : 0 | 보 : 1
 				if (ok == 1) { // 설치
-					if (arch == 0 ) {
-						if(pillarOk(y, x)) {
-							pillar[y][x] = true;
+					if (arch == 0) {
+						if (pillarOk(x, y, n)) {
+							pillar[x][y] = true;
 							count++;
 						}
-					}
-					if (arch == 1 ) {
-						if(boOk(y, x)) {
-							bo[y][x] = true;
+					} else {
+						if (boOk(x, y,n)) {
+							bo[x][y] = true;
 							count++;
 						}
 					}
 				} else {
 					if (arch == 0) {
-						pillar[y][x] = false;
+						pillar[x][y] = false;
 					} else if (arch == 1) {
-						bo[y][x] = false;
+						bo[x][y] = false;
 					}
 
-					if (destroy(y, x, arch, n)) {
+					if (destroy(x, y, arch, n)) {
 						count--;
 						continue;
 					}
 
 					if (arch == 0) {
-						pillar[y][x] = true;
+						pillar[x][y] = true;
 					} else if (arch == 1) {
-						bo[y][x] = true;
+						bo[x][y] = true;
 					}
 				}
 
@@ -81,34 +80,44 @@ public class KAKAO2020_기둥과보설치 {
 			int index = 0;
 			int[][] answer = new int[count][3];
 
-			for (int i = 1; i < n + 2; i++) {
-				for (int j = 1; j < n + 2; j++) {
+			for (int j = 0; j <= n; j++) {
+				for (int i = n; i >= 0; i--) {
 					if (pillar[i][j])
-						answer[index++] = new int[] { i - 1, j - 1, 0 };
+						answer[index++] = new int[] { j, n - i, 0 };
 					if (bo[i][j])
-						answer[index++] = new int[] { i - 1, j - 1, 1 };
+						answer[index++] = new int[] { j, n - i, 1 };
 				}
 			}
 			return answer;
 		}
 
-		private boolean pillarOk(int y, int x) {
-			if(x == 1 || pillar[y][x - 1] || bo[y][x] || bo[y - 1][x]) return true;
+		private boolean pillarOk(int x, int y, int n) {
+			// 아래 기둥, 좌우 보 확인
+			if (x == n || pillar[x + 1][y] || bo[x][y])
+				return true;
+			if(y!=0 && bo[x][y - 1]) return true;
 			return false;
 		}
 
-		private boolean boOk(int y, int x) {
-			if(pillar[y][x - 1] || pillar[y + 1][x - 1] || (bo[y - 1][x] && bo[y + 1][x])) return true;
+		private boolean boOk(int x, int y,int n) {
+			if (pillar[x + 1][y])
+				return true;
+			if(y!=n && pillar[x + 1][y + 1]) {
+				return true;
+			}
+			if(y!=0 && y!=n && (bo[x][y - 1] && bo[x][y + 1])){
+				return true;
+			}
 			return false;
 		}
 
 		private boolean destroy(int y, int x, int arch, int n) {
-			for (int i = 1; i < n + 2; i++) {
-				for (int j = 1; j < n + 2; j++) {
-					if (pillar[i][j] && !pillarOk(i, j)) {
+			for (int i = 0; i <= n; i++) {
+				for (int j = 0; j <= n; j++) {
+					if (pillar[i][j] && !pillarOk(i, j, n)) {
 						return false;
 					}
-					if (bo[i][j] && !boOk(i, j)) {
+					if (bo[i][j] && !boOk(i, j,n)) {
 						return false;
 					}
 				}
