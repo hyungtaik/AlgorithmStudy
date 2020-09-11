@@ -9,6 +9,12 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-09-11]
+----------------------------------------------
+**[Programmers] 2020_KAKAO 가사 검색 : https://programmers.co.kr/learn/courses/30/lessons/60060**
+* [KAKAO2020_가사검색.java - solve (2H 10M) : Trie](AlgorithmStudy/src/programmers/KAKAO2020_가사검색.java)
+
+----------------------------------------------
 ## [2020-09-10]
 ----------------------------------------------
 **[Programmers] 2020_KAKAO 기둥과 보 설치 : https://programmers.co.kr/learn/courses/30/lessons/60061**
