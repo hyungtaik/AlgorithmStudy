@@ -11,7 +11,7 @@
 ----------------------------------------------
 ## [2020-09-12]
 ----------------------------------------------
-**[Programmers] 코딩테스트 연습>스택/큐>주식가격 : https://programmers.co.kr/learn/courses/30/lessons/42895**
+**[Programmers] 코딩테스트 연습> DP > N으로 표현 : https://programmers.co.kr/learn/courses/30/lessons/42895**
 * [N으로표현.java - solve (30M) : DFS](AlgorithmStudy/src/programmers/N으로표현.java)
 
 ----------------------------------------------
