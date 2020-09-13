@@ -9,6 +9,12 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-09-13]
+----------------------------------------------
+**[Programmers] 코딩테스트 연습> DP > 정수 삼각형 : https://programmers.co.kr/learn/courses/30/lessons/43105**
+* [정수삼각형.java - solve (30M) : DP (BOTTOM-UP)](AlgorithmStudy/src/programmers/정수삼각형.java)
+
+----------------------------------------------
 ## [2020-09-12]
 ----------------------------------------------
 **[Programmers] 코딩테스트 연습> DP > N으로 표현 : https://programmers.co.kr/learn/courses/30/lessons/42895**
