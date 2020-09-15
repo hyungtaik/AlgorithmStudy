@@ -15,16 +15,16 @@ import java.util.StringTokenizer;
  * @category DFS(백트래킹)
  * 
  * @see 백준 19236번: 청소년 상어 <br>
- *      메모리: KB <br>
- *      시간: ms
- * @since 2020-09-14
+ *      메모리: 13112 KB <br>
+ *      시간: 80 ms
+ * @since 2020-09-15
  * 
  */
 
 public class boj_19236 {
 	// ↑, ↖, ←, ↙, ↓, ↘, →, ↗
-	private static int[] dx = { -1, -1, 0, 1, 1, 1, 0, -1 };
-	private static int[] dy = { 0, -1, -1, -1, 0, 1, 1, 1 };
+	private static int[] dx = { 0, -1, -1, 0, 1, 1, 1, 0, -1 };
+	private static int[] dy = { 0, 0, -1, -1, -1, 0, 1, 1, 1 };
 	private static int max;
 	private static boolean[] visited;
 	private static int[][] map;
@@ -41,22 +41,22 @@ public class boj_19236 {
 				int num = Integer.parseInt(st.nextToken());
 				int dir = Integer.parseInt(st.nextToken());
 				map[i][j] = num;
-				fishes[num] = new Fish(i, j, num, dir);
+				fishes[num] = new Fish(i, j, dir);
 			}
 		}
 		max = Integer.MIN_VALUE;
+		visited = new boolean[17];
+
 		int num = map[0][0];
 		int dir = fishes[num].dir;
-		// 상어가 -1
-		map[0][0] = -1;
-		visited = new boolean[17];
 		visited[num] = true;
+
+		map[0][0] = -1; // 상어가 -1
 		dfs(0, 0, dir, num);
 		System.out.println(max);
 	}
 
 	static void dfs(int x, int y, int dir, int num) {
-		System.out.println(num);
 		// 물고기 이동
 		Fish[] tempFishes = new Fish[17];
 		for (int i = 1; i <= 16; i++) {
@@ -73,14 +73,12 @@ public class boj_19236 {
 		moveFish();
 
 		// 상어 이동
-
-		for (int i = 1; i <= 3; i++) {
-			System.out.println(i + "!@#");
+		for (int i = 1; i < 4; i++) {
 			int nx = x + dx[dir] * i;
 			int ny = y + dy[dir] * i;
 
 			if (nx < 0 || nx > 3 || ny < 0 || ny > 3 || map[nx][ny] == 0) {
-				break;
+				continue;
 			}
 			int fishNum = map[nx][ny];
 			visited[fishNum] = true;
@@ -113,21 +111,21 @@ public class boj_19236 {
 			if (visited[i])
 				continue;
 
-			Fish f = fishes[i]; // 현재 움직일 물고기
-//			System.out.println("현재 움직이는 물고기 번호 : " + i + " / 현재 물고기의 이동 방향 : " + f.d);
-			int dir = f.dir;
-			int nx = f.x, ny = f.y;
+			Fish fish = fishes[i];
+			int nd = fish.dir;
+			int nx = fish.x;
+			int ny = fish.y;
 			boolean flag = false;
 
-//			int[] changeDir = {0,2,3,4,5,6,7,8,1};
-
-			for (int j = 1; j < 8; j++) {
-				nx = f.x + dx[dir];
-				ny = f.y + dy[dir];
+			for (int j = 0; j < 8; j++) {
+				nx = fish.x + dx[nd];
+				ny = fish.y + dy[nd];
 
 				if (nx >= 0 && nx < 4 && ny >= 0 && ny < 4) {
 					if (map[nx][ny] == -1) {
-						dir = (dir + j) % 8;
+						nd = (nd + 1) % 9;
+						if (nd == 0)
+							nd += 1;
 						continue;
 					}
 					if (map[nx][ny] == 0 || map[nx][ny] != -1) {
@@ -135,7 +133,9 @@ public class boj_19236 {
 						break;
 					}
 				} else {
-					dir = (dir + j) % 8;
+					nd = (nd + 1) % 9;
+					if (nd == 0)
+						nd += 1;
 				}
 			}
 
@@ -143,33 +143,26 @@ public class boj_19236 {
 				continue;
 
 			int temp = map[nx][ny];
-			map[nx][ny] = map[f.x][f.y];
-			map[f.x][f.y] = temp;
+			map[nx][ny] = map[fish.x][fish.y];
+			map[fish.x][fish.y] = temp;
 
-			// 값 갱신
-			fishes[i] = new Fish(nx, ny, temp, dir); // 현재 움직일 물고기
+			fishes[i] = new Fish(nx, ny, nd);
 
-			if (temp != 0) { // 빈칸이 아니면 갱신
-				fishes[temp] = new Fish(f.x, f.y, temp, fishes[temp].dir);
+			if (temp != 0) {
+				fishes[temp] = new Fish(fish.x, fish.y, fishes[temp].dir);
 			}
 
 		}
 	}
 
-	static class Fish implements Comparable<Fish> {
-		int x, y, num, dir;
+	static class Fish {
+		int x, y, dir;
 
-		public Fish(int x, int y, int num, int dir) {
+		public Fish(int x, int y, int dir) {
 			super();
 			this.x = x;
 			this.y = y;
-			this.num = num;
 			this.dir = dir;
-		}
-
-		@Override
-		public int compareTo(Fish o) {
-			return this.num - o.num;
 		}
 	}
 
