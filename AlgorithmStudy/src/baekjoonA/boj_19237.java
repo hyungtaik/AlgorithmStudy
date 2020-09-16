@@ -11,8 +11,8 @@ import java.util.StringTokenizer;
  * @category 시뮬레이션
  * 
  * @see 백준 19237번: 어른 상어 <br>
- *      메모리: KB <br>
- *      시간: ms
+ *      메모리: 17516 KB <br>
+ *      시간: 144 ms
  * @since 2020-09-16
  * 
  */
@@ -23,10 +23,8 @@ public class boj_19237 {
 	private static int[] dx = { 0, -1, 1, 0, 0 };
 	private static int[] dy = { 0, 0, 0, -1, 1 };
 	private static int N, M, K;
-	private static int[][] map;
 	private static Pair[] shark;
-	private static trace[][] perfume;
-	private static LinkedList<Pair> q;
+	private static Trace[][] map;
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -36,16 +34,15 @@ public class boj_19237 {
 		M = Integer.parseInt(st.nextToken());
 		K = Integer.parseInt(st.nextToken()); // 냄새 지속시간
 
-		map = new int[N][N];
-		perfume = new trace[N][N];
+		map = new Trace[N][N];
 		shark = new Pair[M + 1];
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine(), " ");
 			for (int j = 0; j < N; j++) {
-				map[i][j] = Integer.parseInt(st.nextToken());
-				if (map[i][j] > 0) {
-					shark[map[i][j]] = new Pair(i, j, -1, map[i][j]);
-					perfume[i][j] = new trace(map[i][j], K);
+				map[i][j] = new Trace(Integer.parseInt(st.nextToken()), -1);
+				if (map[i][j].num > 0) {
+					shark[map[i][j].num] = new Pair(i, j);
+					map[i][j].time = K;
 				}
 			}
 		}
@@ -55,144 +52,97 @@ public class boj_19237 {
 			shark[i].dir = dir;
 		}
 
-		q = new LinkedList<Pair>();
 		// 위 아래 왼 오
 		for (int i = 1; i <= M; i++) {
-			st = new StringTokenizer(br.readLine(), " ");
-			int[] up = new int[4];
-			up[0] = Integer.parseInt(st.nextToken());
-			up[1] = Integer.parseInt(st.nextToken());
-			up[2] = Integer.parseInt(st.nextToken());
-			up[3] = Integer.parseInt(st.nextToken());
-			st = new StringTokenizer(br.readLine(), " ");
-			int[] down = new int[4];
-			down[0] = Integer.parseInt(st.nextToken());
-			down[1] = Integer.parseInt(st.nextToken());
-			down[2] = Integer.parseInt(st.nextToken());
-			down[3] = Integer.parseInt(st.nextToken());
-			st = new StringTokenizer(br.readLine(), " ");
-			int[] left = new int[4];
-			left[0] = Integer.parseInt(st.nextToken());
-			left[1] = Integer.parseInt(st.nextToken());
-			left[2] = Integer.parseInt(st.nextToken());
-			left[3] = Integer.parseInt(st.nextToken());
-			st = new StringTokenizer(br.readLine(), " ");
-			int[] right = new int[4];
-			right[0] = Integer.parseInt(st.nextToken());
-			right[1] = Integer.parseInt(st.nextToken());
-			right[2] = Integer.parseInt(st.nextToken());
-			right[3] = Integer.parseInt(st.nextToken());
-
-			shark[i].up = new int[4];
-			shark[i].up = up;
-			shark[i].down = down;
-			shark[i].left = left;
-			shark[i].right = right;
-			q.add(shark[i]);
+			for (int j = 1; j <= 4; j++) {
+				st = new StringTokenizer(br.readLine());
+				for (int k = 1; k <= 4; k++) {
+					shark[i].priority[j][k] = Integer.parseInt(st.nextToken());
+				}
+			}
 		}
 
 		int count = 0;
-		int remain = M;
-		while (remain > 1 && count < 1001) {
-//			for (int i = 0; i < N; i++) {
-//				for (int j = 0; j < N; j++) {
-//					System.out.print(map[i][j] + " ");
-//				}
-//				System.out.println();
-//			}
-//			System.out.println("***********");
-			int len = q.size();
-			if (len == 1)
-				break;
+		while (count < 1001) {
 
-			// 상어들 이동하기
-			for (int i = 1; i <= len; i++) {
-				Pair temp = q.poll();
-				int dir = temp.dir;
-				int[] go = null;
-				switch (dir) {
-				case 1:
-					go = temp.up;
-					break;
-				case 2:
-					go = temp.down;
-					break;
-				case 3:
-					go = temp.left;
-					break;
-				case 4:
-					go = temp.right;
-					break;
-				}
-				for (int j = 0; j < 4; j++) {
-					int nx = temp.x + dx[go[j]];
-					int ny = temp.y + dy[go[j]];
-					if (nx < 0 || nx > N - 1 || ny < 0 || ny > N - 1)
-						continue;
-					if (map[nx][ny] > 0 || perfume[nx][ny] != null) {
-						if (perfume[nx][ny].num != map[temp.x][temp.y]) {
-							continue;
-						} else {
-							dir = go[j];
-							Pair p = new Pair(nx, ny, dir, temp.num);
-							p.up = shark[temp.num].up;
-							p.down = shark[temp.num].down;
-							p.left = shark[temp.num].left;
-							p.right = shark[temp.num].right;
-							q.add(p);
-							break;
-						}
-					} else {
-						dir = go[j];
-						Pair p = new Pair(nx, ny, dir, temp.num);
-						p.up = shark[temp.num].up;
-						p.down = shark[temp.num].down;
-						p.left = shark[temp.num].left;
-						p.right = shark[temp.num].right;
-						q.add(p);
-						break;
-
-					}
-				}
-			}
-
-			// 흔적 시간들 -1 하기
+			// 냄새 지우기
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < N; j++) {
-					if (perfume[i][j] != null) {
-						perfume[i][j].time--;
-						if (perfume[i][j].time == 0)
-							perfume[i][j] = null;
-					}
-					map[i][j] = 0;
+					map[i][j].time--;
 				}
 			}
-			// 겹친애들중에서 젤 낮은 숫자만뺴고 다 지우기
-			for (int i = 0; i < len; i++) {
-				Pair temp = q.poll();
-				if (map[temp.x][temp.y] != 0)
+
+			int sharkcount = 0;
+			L: for (int i = M; i > 0; i--) {
+				if (!shark[i].live)
 					continue;
-				map[temp.x][temp.y] = temp.num;
-				perfume[temp.x][temp.y] = new trace(temp.num, K);
-				q.add(temp);
+				if (map[shark[i].x][shark[i].y].num != i) {
+					shark[i].live = false;
+					continue;
+				}
+				sharkcount++;
+				int nx = 0, ny = 0;
+
+				int sharkdir = shark[i].dir;
+				for (int j = 1; j <= 4; j++) {
+					int tmp = shark[i].priority[sharkdir][j];
+					nx = shark[i].x + dx[tmp];
+					ny = shark[i].y + dy[tmp];
+					if (nx < 0 || nx > N - 1 || ny < 0 || ny > N - 1)
+						continue;
+
+					if (map[nx][ny].time < 0) { // 이동할 수 있으니 이동하고 전체 continue
+						shark[i].x = nx;
+						shark[i].y = ny;
+						shark[i].dir = tmp;
+						continue L;
+					}
+				}
+
+				// 갈 수 없으니 다른 방법
+				sharkdir = shark[i].dir;
+				for (int j = 1; j <= 4; j++) {
+					int tmp = shark[i].priority[sharkdir][j];
+					nx = shark[i].x + dx[tmp];
+					ny = shark[i].y + dy[tmp];
+					if (nx < 0 || nx > N - 1 || ny < 0 || ny > N - 1)
+						continue;
+
+					if (map[nx][ny].num == i && map[nx][ny].time >= 0) {
+
+						shark[i].x = nx;
+						shark[i].y = ny;
+						shark[i].dir = tmp;
+						break;
+					}
+				}
 			}
+
+			// 상어 이동
+			for (int i = M; i > 0; i--) {
+				if (!shark[i].live)
+					continue;
+				map[shark[i].x][shark[i].y].time = K;
+				map[shark[i].x][shark[i].y].num = i;
+			}
+
+			if (sharkcount == 1)
+				break;
 			count++;
 
 		}
-		remain = q.size();
-		if (remain != 1)
-		{
+		if (count >= 1001) {
 			System.out.println(-1);
 		} else {
 			System.out.println(count);
 		}
 	}
 
-	static class trace {
+	static class Trace {
 		int num;
 		int time;
 
-		public trace(int num, int time) {
+		public Trace(int num, int time) {
 			super();
 			this.num = num;
 			this.time = time;
@@ -202,15 +152,16 @@ public class boj_19237 {
 	static class Pair {
 		int x, y;
 		int dir;
-		int num;
-		int[] up, down, left, right;
+		int[][] priority;
+		boolean live;
 
-		public Pair(int x, int y, int dir, int num) {
+		public Pair(int x, int y) {
 			super();
 			this.x = x;
 			this.y = y;
-			this.dir = dir;
-			this.num = num;
+			this.dir = 0;
+			this.priority = new int[5][5];
+			this.live = true;
 		}
 	}
 
