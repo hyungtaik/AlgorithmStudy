@@ -7,6 +7,12 @@
 - 날 짜 | Update | README.md - Problem : 푼 문제 수
 - 날 짜 | Done | 문제풀이사이트_문제번호_문제이름.java
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
+  
+----------------------------------------------
+## [2020-09-18]
+----------------------------------------------
+**[Programmers] 코딩테스트 연습> DP > 등굣길 : https://programmers.co.kr/learn/courses/30/lessons/42898**
+* [등굣길.java - solve (30M) : DP(Bottom-up)](AlgorithmStudy/src/programmers/등굣길.java)
 
 ----------------------------------------------
 ## [2020-09-16]
