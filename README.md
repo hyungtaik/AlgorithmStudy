@@ -14,6 +14,9 @@
 **[BOJ] 백준 9251번 LCS (No.9251): https://www.acmicpc.net/problem/9251**
 * [boj_9251.java - solve (20M) : LCS(DP)](AlgorithmStudy/src/baekjoonA/boj_9251.java)  
 
+**[Programmers] 코딩테스트 연습> 그래프 > 가장 먼 노드 : https://programmers.co.kr/learn/courses/30/lessons/49189**
+* [가장먼노드.java - solve (30M) : BFS](AlgorithmStudy/src/programmers/가장먼노드.java)
+
 ----------------------------------------------
 ## [2020-09-19]
 ----------------------------------------------
