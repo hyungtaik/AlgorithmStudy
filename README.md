@@ -14,6 +14,9 @@
 **[Programmers] 코딩테스트 연습> 스택/큐 > 기능 개발 : https://programmers.co.kr/learn/courses/30/lessons/42586**
 * [기능개발.java - solve (20M) : 자료구조(Queue)](AlgorithmStudy/src/programmers/기능개발.java)
 
+**[Programmers] 코딩테스트 연습> 힙 > 더 맵게 : https://programmers.co.kr/learn/courses/30/lessons/42626**
+* [더맵게.java - solve (30M) : 자료구조(Heap)](AlgorithmStudy/src/programmers/더맵게.java)
+
 ----------------------------------------------
 ## [2020-09-22]
 ----------------------------------------------
