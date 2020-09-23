@@ -9,9 +9,15 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-09-23]
+----------------------------------------------
+**[Programmers] 코딩테스트 연습> 스택/큐 > 기능 개발 : https://programmers.co.kr/learn/courses/30/lessons/42586**
+* [기능개발.java - solve (20M) : 자료구조(Queue)](AlgorithmStudy/src/programmers/기능개발.java)
+
+----------------------------------------------
 ## [2020-09-22]
 ----------------------------------------------
-**[Programmers] 코딩테스트 연습> 그래프 > 프린터 : https://programmers.co.kr/learn/courses/30/lessons/42587**
+**[Programmers] 코딩테스트 연습> 스택/큐 > 프린터 : https://programmers.co.kr/learn/courses/30/lessons/42587**
 * [프린터.java - solve (30M) : 자료구조(Queue)](AlgorithmStudy/src/programmers/프린터.java)
 
 ----------------------------------------------
