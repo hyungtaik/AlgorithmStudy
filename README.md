@@ -9,6 +9,12 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-09-24]
+----------------------------------------------
+**[Programmers] 코딩테스트 연습> 힙(Heap) > 디스크 컨트롤러 : https://programmers.co.kr/learn/courses/30/lessons/42627**
+* [디스크컨트롤러.java - solve (20M) : 자료구조(Priority Queue)](AlgorithmStudy/src/programmers/디스크컨트롤러.java)
+
+----------------------------------------------
 ## [2020-09-23]
 ----------------------------------------------
 **[Programmers] 코딩테스트 연습> 스택/큐 > 기능 개발 : https://programmers.co.kr/learn/courses/30/lessons/42586**
