@@ -11,8 +11,8 @@
 ----------------------------------------------
 ## [2020-10-04]
 ----------------------------------------------
-**[BOJ] 백준 11053번 가장 긴 증가하는 부분 수열 (No.11053): https://www.acmicpc.net/problem/11053**
-* [boj_11053.java - solve (20M) : 이분 탐색](AlgorithmStudy/src/baekjoonA/boj_11053.java)  
+**[BOJ] 백준 18352번 특정 거리의 도시 찾기 (No.18352): https://www.acmicpc.net/problem/18352**
+* [boj_18352.java - solve (40M) : BFS](AlgorithmStudy/src/baekjoonA/boj_18352.java)  
 
 ----------------------------------------------
 ## [2020-10-03]
