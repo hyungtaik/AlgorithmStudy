@@ -14,6 +14,9 @@
 **[BOJ] 백준 2559번 수열 (No.2559): https://www.acmicpc.net/problem/2559**
 * [boj_2559.java - solve (20M) : 투 포인터](AlgorithmStudy/src/baekjoonA/boj_2559.java)  
 
+**[BOJ] 백준 2531번 회전 초밥 (No.2531): https://www.acmicpc.net/problem/2531**
+* [boj_2531.java - solve (30M) : 투 포인터](AlgorithmStudy/src/baekjoonA/boj_2531.java)  
+
 ----------------------------------------------
 ## [2020-10-07]
 ----------------------------------------------
