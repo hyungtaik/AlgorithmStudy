@@ -12,7 +12,7 @@
 ## [2020-10-09]
 ----------------------------------------------
 **[Programmers] 코딩테스트 연습> 이분탐색 > 입국심사 : https://programmers.co.kr/learn/courses/30/lessons/43238**
-* [입국심사.java - solve (1H) : 이분탐](AlgorithmStudy/src/programmers/입국심사.java)
+* [입국심사.java - solve (1H) : 이분탐색](AlgorithmStudy/src/programmers/입국심사.java)
 
 ----------------------------------------------
 ## [2020-10-08]
