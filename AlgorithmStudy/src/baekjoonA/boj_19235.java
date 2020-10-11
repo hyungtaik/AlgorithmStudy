@@ -8,11 +8,11 @@ import java.util.StringTokenizer;
 /**
  * 
  * @author TAEK
- * @category DFS(¹éÆ®·¡Å·)
+ * @category ì‹œë®¬ë ˆì´ì…˜
  * 
- * @see ¹éÁØ 19235¹ø: ¸ğ³ë¹Ì³ëµµ¹Ì³ë <br>
- *      ¸Ş¸ğ¸®: 26380 KB <br>
- *      ½Ã°£: 228 ms
+ * @see ë°±ì¤€ 19235ë²ˆ: ëª¨ë…¸ë¯¸ë…¸ë„ë¯¸ë…¸ <br>
+ *      ë©”ëª¨ë¦¬: 26380 KB <br>
+ *      ì‹œê°„: 228 ms
  * @since 2020-10-11
  * 
  */
@@ -49,13 +49,13 @@ public class boj_19235 {
 			mapGreen.put(i, t);
 
 			// x,y
-			// x,y - x,y+1 (°¡·Î)
-			// x,y - x+1,y (¼¼·Î)
+			// x,y - x,y+1 (ê°€ë¡œ)
+			// x,y - x+1,y (ì„¸ë¡œ)
 
 			moveBlue(t, x, y, i);
 			moveGreen(t, x, y, i);
 
-			getScore(1); // Á¡¼ö Ã¼Å© ¹× Á¶Á¤
+			getScore(1); // ì ìˆ˜ ì²´í¬ ë° ì¡°ì •
 			getScore(2);
 
 		}
@@ -66,7 +66,7 @@ public class boj_19235 {
 	}
 
 	static int changeNum;
-	// Á¡¼ö ¾òÀ» ¼ö ÀÖ´ÂÁö Ã¼Å©
+	// ì ìˆ˜ ì–»ì„ ìˆ˜ ìˆëŠ”ì§€ ì²´í¬
 	static boolean checkScore(int num) {
 		changeNum = 0;
 		boolean flag = false;
@@ -80,7 +80,7 @@ public class boj_19235 {
 				}
 				if (count == 4) {
 					changeNum = Math.max(changeNum, i);
-					flag = true; // Á¡¼ö ¿Ã¸§
+					flag = true; // ì ìˆ˜ ì˜¬ë¦„
 					for (int j = 0; j < 4; j++) {
 						int type = mapBlue.get(blue[j][i]);
 						if (type == 2) {
@@ -102,7 +102,7 @@ public class boj_19235 {
 				}
 				if (count == 4) {
 					changeNum = Math.max(changeNum, i);
-					flag = true; // Á¡¼ö ¿Ã¸§
+					flag = true; // ì ìˆ˜ ì˜¬ë¦„
 					for (int j = 0; j < 4; j++) {
 						if (green[i][j] > 0) {
 							int type = mapGreen.get(green[i][j]);
@@ -124,7 +124,7 @@ public class boj_19235 {
 	static void getScore(int num) {
 		if (num == 1) { // Blue
 			while (true) {
-				if (checkScore(1)) { // Á¶Á¤
+				if (checkScore(1)) { // ì¡°ì •
 					for (int j = changeNum-1; j >= 0; j--) {
 						for (int i = 0; i < 4; i++) {
 							if (blue[i][j] > 0) {
@@ -172,7 +172,7 @@ public class boj_19235 {
 			}
 		} else { // Green
 			while (true) {
-				if (checkScore(2)) { // Á¶Á¤
+				if (checkScore(2)) { // ì¡°ì •
 					for (int j = changeNum-1; j >= 0; j--) {
 						for (int i = 0; i < 4; i++) {
 							if (green[j][i] > 0) {
