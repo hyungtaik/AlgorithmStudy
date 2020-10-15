@@ -14,6 +14,9 @@
 **[BOJ] 백준 2210번 숫자판 점프 (No.2210): https://www.acmicpc.net/problem/2210**
 * [boj_2210.java - solve (10M) : BFS](AlgorithmStudy/src/baekjoonA/boj_2210.java)
 
+**[BOJ] 백준 2251번 물통 (No.2210): https://www.acmicpc.net/problem/2251**
+* [boj_2251.java - solve (40M) : BFS](AlgorithmStudy/src/baekjoonA/boj_2251.java)
+
 ----------------------------------------------
 ## [2020-10-14]
 ----------------------------------------------
