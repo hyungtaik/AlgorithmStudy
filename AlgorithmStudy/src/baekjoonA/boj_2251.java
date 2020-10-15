@@ -10,11 +10,11 @@ import java.util.StringTokenizer;
 /**
  * 
  * @author TAEK
- * @category Åõ Æ÷ÀÎÅÍ
+ * @category BFS
  * 
- * @see ¹éÁØ 2251¹ø: ¹°Åë <br>
- *      ¸Þ¸ð¸®:  KB <br>
- *      ½Ã°£:  ms
+ * @see ë°±ì¤€ 2251ë²ˆ: ë¬¼í†µ <br>
+ *      ë©”ëª¨ë¦¬: 21876 KB <br>
+ *      ì‹œê°„: 92 ms
  * @since 2020-10-15
  * 
  */
@@ -31,83 +31,85 @@ public class boj_2251 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
+
 		A = Integer.parseInt(st.nextToken());
 		B = Integer.parseInt(st.nextToken());
 		C = Integer.parseInt(st.nextToken());
-		
+
 		q = new LinkedList<Pair>();
-		q.add(new Pair(0,0,C));
+		q.add(new Pair(0, 0, C));
 		list = new ArrayList<Integer>();
-		visited = new boolean[A+1][B+1][C+1];
-		
-		while(!q.isEmpty()) {
+		visited = new boolean[A + 1][B + 1][C + 1];
+
+		while (!q.isEmpty()) {
 			Pair temp = q.poll();
-			if(visited[temp.a][temp.b][temp.c]) continue;
-			if(temp.a == 0) {
+			if (visited[temp.a][temp.b][temp.c])
+				continue;
+			if (temp.a == 0) {
 				list.add(temp.c);
 			}
 			visited[temp.a][temp.b][temp.c] = true;
-			
-			// A·Î ÀÌµ¿
+
+			// Aë¡œ ì´ë™
 			// B -> A
 			int num = temp.a + temp.b;
-			if(num <= A) {
-				q.add(new Pair(num,0,temp.c));
-			}else {
-				q.add(new Pair(A,num - A,temp.c));
+			if (num <= A) {
+				q.add(new Pair(num, 0, temp.c));
+			} else {
+				q.add(new Pair(A, num - A, temp.c));
 			}
-			
+
 			// C -> A
 			num = temp.a + temp.c;
-			if(num <= A) {
-				q.add(new Pair(num,temp.b,0));
-			}else {
-				q.add(new Pair(A,temp.b,num-A));
+			if (num <= A) {
+				q.add(new Pair(num, temp.b, 0));
+			} else {
+				q.add(new Pair(A, temp.b, num - A));
 			}
-			
-			// B·Î ÀÌµ¿
+
+			// Bë¡œ ì´ë™
 			// A -> B
 			num = temp.a + temp.b;
-			if(num <= B) {
-				q.add(new Pair(0,num,temp.c));
-			}else {
-				q.add(new Pair(num-B,B,temp.c));
+			if (num <= B) {
+				q.add(new Pair(0, num, temp.c));
+			} else {
+				q.add(new Pair(num - B, B, temp.c));
 			}
-			
+
 			// C -> B
 			num = temp.b + temp.c;
-			if(num <= B) {
-				q.add(new Pair(temp.a,num,0));
-			}else {
-				q.add(new Pair(temp.a,B,num-B));
+			if (num <= B) {
+				q.add(new Pair(temp.a, num, 0));
+			} else {
+				q.add(new Pair(temp.a, B, num - B));
 			}
-			
-			// C·Î ÀÌµ¿
+
+			// Cë¡œ ì´ë™
 			// A -> C
 			num = temp.a + temp.c;
-			if(num <= C) {
-				q.add(new Pair(0,temp.b,num));
-			}else {
-				q.add(new Pair(num-C,temp.b,C));
+			if (num <= C) {
+				q.add(new Pair(0, temp.b, num));
+			} else {
+				q.add(new Pair(num - C, temp.b, C));
 			}
-			
+
 			// B -> C
 			num = temp.b + temp.c;
-			if(num <= C) {
-				q.add(new Pair(temp.a,0,num));
-			}else {
-				q.add(new Pair(temp.a,num-C,C));
+			if (num <= C) {
+				q.add(new Pair(temp.a, 0, num));
+			} else {
+				q.add(new Pair(temp.a, num - C, C));
 			}
 		}
 		Collections.sort(list);
-		for(int i=0;i<list.size();i++) {
-			System.out.print(list.get(i)+" ");
+		for (int i = 0; i < list.size(); i++) {
+			System.out.print(list.get(i) + " ");
 		}
-		
+
 	}
-	static class Pair{
-		int a,b,c;
+
+	static class Pair {
+		int a, b, c;
 
 		public Pair(int a, int b, int c) {
 			super();
