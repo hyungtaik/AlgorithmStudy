@@ -9,6 +9,12 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-10-16]
+----------------------------------------------
+**[Programmers] 코딩테스트 연습> 2020 KAKAO BLIND RECRUITMENT > 문자열 압축 : https://programmers.co.kr/learn/courses/30/lessons/60057**
+* [KAKAO_2020_문자열압축.java - solve (1H 10M) : 문자열](AlgorithmStudy/src/programmers/KAKAO_2020_문자열압축.java)
+
+----------------------------------------------
 ## [2020-10-15]
 ----------------------------------------------
 **[BOJ] 백준 2210번 숫자판 점프 (No.2210): https://www.acmicpc.net/problem/2210**
