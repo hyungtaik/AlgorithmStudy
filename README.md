@@ -9,6 +9,12 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-10-17]
+----------------------------------------------
+**[BOJ] 백준 17136번 색종이 붙이기 (No.17136): https://www.acmicpc.net/problem/17136**
+* [boj_17136_second.java - solve (2H) : DFS](AlgorithmStudy/src/baekjoonA/boj_17136_second.java)
+
+----------------------------------------------
 ## [2020-10-16]
 ----------------------------------------------
 **[Programmers] 코딩테스트 연습> 2020 KAKAO BLIND RECRUITMENT > 문자열 압축 : https://programmers.co.kr/learn/courses/30/lessons/60057**
