@@ -9,10 +9,16 @@
   - ex) 2020-08-25 | Done | 백준_1261번_알고스팟.java
 
 ----------------------------------------------
+## [2020-11-07]
+----------------------------------------------
+**[BOJ] 백준 2225번 합분해 (No.2225): https://www.acmicpc.net/problem/2225**
+* [boj_2225.java - solve (30M) : DP](AlgorithmStudy/src/baekjoonA/boj_2225.java)
+
+----------------------------------------------
 ## [2020-11-05]
 ----------------------------------------------
 **[Programmers] 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > 풍선 터트리기 : https://programmers.co.kr/learn/courses/30/lessons/68646**
-* [풍선터뜨리기.java - solve (20M) : 부분합](AlgorithmStudy/src/programmers/풍선터뜨리기.java)
+* [풍선터뜨리기.java - solve (20M) : 이분탐색](AlgorithmStudy/src/programmers/풍선터뜨리기.java)
 
 ----------------------------------------------
 ## [2020-11-04]
